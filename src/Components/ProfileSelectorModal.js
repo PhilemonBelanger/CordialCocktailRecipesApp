@@ -53,6 +53,7 @@ export const ProfileSelectorModal = () => {
 
   const handleDelete = () => {
     dispatch(deleteProfile({ id: selectedProfileID }));
+    setSelectedProfileID(currentSelectedProdileID);
     hideModal();
   };
 
@@ -124,7 +125,7 @@ export const ProfileSelectorModal = () => {
         text="Are you sure you want to delete this profile permanently?"
       />
       <Button icon="account" mode="contained" onPress={showModal} style={{ marginVertical: 10 }}>
-        Change Profile ⟡
+        Change Profile: {profileName}
       </Button>
     </View>
   );

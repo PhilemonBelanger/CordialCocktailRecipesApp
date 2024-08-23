@@ -3711,7 +3711,7 @@ export const defaultCocktails = [
         optional: false,
       },
       {
-        id: 93,
+        id: 87,
         quantity: "1 oz",
         optional: false,
       },

@@ -136,12 +136,16 @@ const CocktailDetails = ({ navigation, route }) => {
         </View>
         <Divider />
         <View style={styles.subContainer}>
-          <Text variant="headlineMedium">Steps</Text>
+          <Text style={styles.subtitles} variant="headlineMedium">
+            Steps
+          </Text>
           <StepList steps={selectedCocktail.steps} />
         </View>
         <Divider />
         <View style={styles.subContainer}>
-          <Text variant="headlineMedium">Ingredients</Text>
+          <Text style={styles.subtitles} variant="headlineMedium">
+            Ingredients
+          </Text>
           <IngredientsList
             ingredients={ingredientsNeeded}
             onCardPress={(item) => {
@@ -199,6 +203,11 @@ const styles = StyleSheet.create({
   },
   title: {
     width: Dimensions.get("window").width * 0.8,
+    marginTop: 10,
+    marginLeft: 5,
+  },
+  subtitles: {
+    marginLeft: 5,
   },
   fab: {
     position: "absolute",

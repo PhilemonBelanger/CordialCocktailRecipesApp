@@ -101,7 +101,9 @@ const IngredientDetails = ({ navigation, route }) => {
         </View>
         <Divider />
         <View style={styles.subContainer}>
-          <Text variant="headlineMedium">Cocktails</Text>
+          <Text style={styles.subtitles} variant="headlineMedium">
+            Cocktails
+          </Text>
           <CocktailsList
             cocktails={cocktailsUsedIn}
             onCardPress={(item) => {
@@ -172,6 +174,11 @@ const styles = StyleSheet.create({
   },
   title: {
     width: Dimensions.get("window").width * 0.8,
+    marginTop: 10,
+    marginLeft: 5,
+  },
+  subtitles: {
+    marginLeft: 5,
   },
   fabRow: {
     position: "absolute",

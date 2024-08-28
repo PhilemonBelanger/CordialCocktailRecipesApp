@@ -5528,6 +5528,158 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 146,
+    name: "Whiskey Highball",
+    description:
+      "The Whiskey Highball is a simple yet classic cocktail that originated in the late 19th century, popularized in Japan for its light and refreshing character. The name 'highball' refers to the tall glass used to serve the drink. This cocktail highlights the whiskey’s flavors while being diluted by chilled soda water, making it an easy sipper that pairs well with various foods. This recipe is the traditionnal one which uses soda water and scotch whiskey, but any type of whiskey will work. For the modern version using ginger ale, see Whiskey Ginger.",
+    steps: [
+      "Add the whiskey into a highball glass filled with ice.",
+      "Top with chilled soda water.",
+      "Stir gently and briefly to combine.",
+    ],
+    ingredients: [
+      {
+        id: 43,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "4 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 147,
+    name: "Whiskey Ginger",
+    description:
+      "The Whiskey Ginger is a simple yet timeless highball cocktail that pairs the robust flavors of whiskey with the refreshing taste of ginger ale. This cocktail is often called Whiskey Highball nowadays but the original recipe for this one used soda water. This classic combination has been a favorite for decades, appreciated for its balance and ease of preparation. It's perfect for casual sipping and can be customized with different types of whiskey to suit personal preferences.",
+    steps: [
+      "Add the whiskey into a highball glass filled with ice.",
+      "Top with ginger ale.",
+      "Stir gently and briefly to combine.",
+    ],
+    ingredients: [
+      {
+        id: 25,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 117,
+        quantity: "4 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 148,
+    name: "Irish Buck",
+    description:
+      "The Irish Buck is a simple yet refreshing cocktail that dates back to the early 20th century. It combines the smoothness of Irish whiskey with the zing of lime juice and the fizziness of ginger ale. This cocktail is part of the 'buck' family of drinks, which typically feature a spirit, citrus, and ginger ale or ginger beer. It is also basically a Whiskey Ginger with added lime juice. The Irish Buck offers a bright, crisp taste with a perfect balance of sweet and tart flavors.",
+    steps: [
+      "Add the whiskey and lime juice into a highball glass with ice.",
+      "Top with ginger ale and stir gently and briefly to combine.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 25,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 117,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 149,
+    name: "Floradora",
+    description:
+      "The Floradora cocktail, created in the early 1900s, was named after the Broadway musical 'Florodora.' This refreshing and vibrant drink combines the botanical notes of London dry gin with the tartness of lime juice and the sweetness of raspberry syrup, balanced by the spicy kick of ginger beer. The garnish of raspberries adds a delightful visual appeal, making it as visually pleasing as it is tasty.",
+    steps: [
+      "Add the London dry gin, lime juice, and raspberry syrup into a shaker with ice.",
+      "Shake until well-chilled.",
+      "Double-strain into a highball glass over fresh ice.",
+      "Top with ginger beer and stir gently and briefly to combine.",
+      "Garnish with 2 skewered raspberries.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 83,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 5,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 84,
+        quantity: "2",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 150,
+    name: "Cape Codder",
+    description:
+      "The Cape Codder, named after Cape Cod, Massachusetts, is a simple yet refreshing cocktail that emerged in the mid-20th century. The drink, featuring vodka and cranberry juice, became popular in the 1940s when cranberry juice gained traction as a mixer via an Ocean Spray marketing campaign. Often garnished with a lime wedge, the Cape Codder is a staple in American bars and a favorite for those seeking a tart and fruity cocktail.",
+    steps: [
+      "Add the vodka into a highball glass over ice.",
+      "Top with cranberry juice and stir briefly to combine.",
+      "Squeeze a lime wedge over the glass and drop it into the drink.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 71,
+        quantity: "to top",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 //TODO
 //martinis,
@@ -5547,3 +5699,4 @@ export const defaultCocktails = [
 //punches
 //cobblers
 //flips
+//bucks

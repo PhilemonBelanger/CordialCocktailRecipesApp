@@ -107,14 +107,16 @@ const IngredientsScreen = ({ navigation }) => {
           />
         )}
       </View>
-      <IngredientsList
-        ingredients={searchResults}
-        onCardPress={(item) => {
-          navigation.navigate("IngredientDetails", {
-            ingredientID: item.id,
-          });
-        }}
-      />
+      <View style={styles.list}>
+        <IngredientsList
+          ingredients={searchResults}
+          onCardPress={(item) => {
+            navigation.navigate("IngredientDetails", {
+              ingredientID: item.id,
+            });
+          }}
+        />
+      </View>
       <FAB
         icon="plus"
         style={styles.fab}
@@ -151,6 +153,10 @@ const styles = StyleSheet.create({
     margin: 16,
     right: 0,
     bottom: 0,
+  },
+  list: {
+    marginHorizontal: 3,
+    flex: 1,
   },
 });
 export default IngredientsScreen;

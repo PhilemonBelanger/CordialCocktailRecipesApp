@@ -100,14 +100,16 @@ const CocktailsScreen = ({ navigation }) => {
           />
         )}
       </View>
-      <CocktailsList
-        cocktails={searchResults}
-        onCardPress={(item) => {
-          navigation.navigate("CocktailDetails", {
-            cocktailID: item.id,
-          });
-        }}
-      />
+      <View style={styles.list}>
+        <CocktailsList
+          cocktails={searchResults}
+          onCardPress={(item) => {
+            navigation.navigate("CocktailDetails", {
+              cocktailID: item.id,
+            });
+          }}
+        />
+      </View>
       <FAB
         icon="plus"
         style={styles.fab}
@@ -144,6 +146,10 @@ const styles = StyleSheet.create({
     margin: 16,
     right: 0,
     bottom: 0,
+  },
+  list: {
+    marginHorizontal: 3,
+    flex: 1,
   },
 });
 export default CocktailsScreen;

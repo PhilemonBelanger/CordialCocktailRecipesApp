@@ -5494,6 +5494,40 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 145,
+    name: "Gin Rickey",
+    description:
+      "The Gin Rickey, originating in the late 19th century, is named after Colonel Joe Rickey, a lobbyist in Washington, D.C. Originally made with bourbon, the cocktail was later adapted with gin, becoming a popular and refreshing choice. Its simple combination of gin, lime juice, and soda water makes it a crisp and effervescent drink, ideal for warm weather.",
+    steps: [
+      "Fill a highball glass with ice and add the gin and lime juice.",
+      "Top with soda water.",
+      "Garnish with 2 lime wheels.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "2 wheels",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 //TODO
 //martinis,

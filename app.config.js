@@ -29,7 +29,7 @@ module.exports = {
     bundleIdentifier: "com.philemonbelanger.cordialCocktailapp",
   },
   android: {
-    versionCode: 2,
+    versionCode: 3,
     adaptiveIcon: {
       foregroundImage: "./assets/adaptive-icon.png",
       backgroundColor: "#011327",

@@ -859,4 +859,18 @@ export const defaultIngredients = [
       "Kirschwasser is a clear, colorless fruit brandy traditionally made from double distillation of morello cherries.",
     editable: false,
   },
+  {
+    id: 132,
+    name: "Tonic Water",
+    description:
+      "Tonic water originated in the 19th century as a medicinal beverage, used by British colonialists in India to combat malaria. The key ingredient, quinine, comes from the bark of the cinchona tree and was known for its anti-malarial properties.",
+    editable: false,
+  },
+  {
+    id: 133,
+    name: "Lemon-Lime Soda",
+    description:
+      "Lemon-lime soda was first popularized in the early 20th century as a citrus-flavored soft drink combining lemon and lime juices. The drink's refreshing taste and effervescence made it a favorite mixer for cocktails",
+    editable: false,
+  },
 ];

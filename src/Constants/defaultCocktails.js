@@ -5680,6 +5680,218 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 151,
+    name: "Greyhound (Classic)",
+    description:
+      "The Greyhound is a simple yet elegant cocktail that dates back to the 1930s. Initially made with gin, it became popular among travelers and was named after the famous Greyhound bus line. The combination of gin and freshly squeezed grapefruit juice gives it a refreshing and tart flavor, often served over ice with a lime garnish.",
+    steps: [
+      "Fill a rocks glass with ice.",
+      "Add the gin and grapefruit juice.",
+      "Stir gently to combine.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 73,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 152,
+    name: "Greyhound (Modern)",
+    description:
+      "The Greyhound is a simple yet elegant cocktail that dates back to the 1930s. It initially was made with gin but the recipe evolved to use vodka instead. It became popular among travelers and was named after the famous Greyhound bus line. The combination of vodka and freshly squeezed grapefruit juice gives it a refreshing and tart flavor, often served over ice with a lime garnish.",
+    steps: [
+      "Fill a rocks glass with ice.",
+      "Add the vodka and grapefruit juice.",
+      "Stir gently to combine.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 73,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 153,
+    name: "Gin and Tonic",
+    description:
+      "The Gin and Tonic is a simple yet iconic cocktail that dates back to the 19th century when British officers in India combined gin with tonic water as a way to consume quinine to make the bitter taste more palatable, which helped prevent malaria. The balance of the botanical flavors in gin with the bitterness of tonic water makes this drink a timeless classic. It is commonly garnished with lime for an extra citrus kick.",
+    steps: [
+      "Fill a highball glass with ice, then add the gin.",
+      "Top with tonic water and gently stir.",
+      "Garnish with lime wheels.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 132,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "2 wheels",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 154,
+    name: "Vodka Soda",
+    description:
+      "The Vodka Soda is a simple and refreshing cocktail that gained popularity for its clean and light taste. As one of the most basic mixed drinks, it was popularized in the mid-20th century as a low-calorie option. It is perfect for those who prefer a lighter cocktail and can be enhanced with a squeeze of lime or lemon for a citrusy touch.",
+    steps: [
+      "Fill a highball glass with ice.",
+      "Add the vodka.",
+      "Top with soda water.",
+      "Optionally, squeeze a lime wedge and drop it into the drink.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 155,
+    name: "Shirley Temple",
+    description:
+      "Named after the famous child star Shirley Temple in the 1930s, this non-alcoholic cocktail was created for the actress when she dined at restaurants with her family. The drink combines grenadine, lime juice, and ginger ale for a sweet and tangy flavor, making it a beloved mocktail among both kids and adults.",
+    steps: [
+      "Fill a highball glass with cubed ice.",
+      "Add the grenadine and lime juice.",
+      "Top with the ginger ale and gently stir to combine.",
+      "Garnish with a maraschino cherry.",
+    ],
+    ingredients: [
+      {
+        id: 65,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 117,
+        quantity: "5 oz",
+        optional: false,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 156,
+    name: "Dirty Shirley",
+    description:
+      "The Dirty Shirley is a playful twist on the classic non-alcoholic Shirley Temple. Popularized in the early 2000s, this cocktail adds vodka to the nostalgic mix of grenadine and soda while also using lemon-lime soda instead of the original ginger, making it a fun and easy-to-make adult version of the childhood favorite.",
+    steps: [
+      "Add the vodka and grenadine into a highball glass filled with ice.",
+      "Top with the lemon-lime soda and stir gently and briefly to combine.",
+      "Garnish with a maraschino cherry.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 65,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 133,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 157,
+    name: "Rum and Coke",
+    description:
+      "The Rum and Coke, also known as a 'Cuba Libre' when lime is added, became popular in the early 20th century after the end of the Spanish-American War. Soldiers in Cuba celebrated with rum, mixing it with cola, which was introduced to the island around the same time. The drink is a simple yet iconic combination of rum and cola, often enjoyed worldwide as a casual, easy-to-make cocktail.",
+    steps: [
+      "Fill a highball glass with ice.",
+      "Pour in the rum (any kind you like).",
+      "Add the cola and stir gently to combine.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 53,
+        quantity: "4 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
 ];
 //TODO
 //martinis,
@@ -5694,7 +5906,8 @@ export const defaultCocktails = [
 //kirs,
 //alexander,
 //juleps,
-//highballs (rum and coke, gin tonic, navels)
+//*highballs
+//navels
 //shots
 //punches
 //cobblers

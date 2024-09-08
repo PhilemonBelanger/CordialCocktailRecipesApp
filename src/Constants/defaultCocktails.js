@@ -5892,11 +5892,75 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 158,
+    name: "Fuzzy Navel",
+    description:
+      "The Fuzzy Navel, created in the 1980s by New Jersey bartender Ray Foley, is a simple, fun cocktail named for its ingredients: 'fuzzy' referring to peach skin and 'navel' for the variety of orange. It became a hit during the decade of light, fruity drinks and remains a popular, easy-to-make choice.",
+    steps: [
+      "Add the peach schnapps and orange juice into a highball glass over ice.",
+      "Stir briefly to combine.",
+      "Garnish with an orange wheel.",
+    ],
+    ingredients: [
+      {
+        id: 69,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 159,
+    name: "Hairy Navel",
+    description:
+      "The Hairy Navel is a playful twist on the classic Fuzzy Navel, created in the 1980s during the height of sweet, fruity cocktails. By adding vodka to the original combination of peach schnapps and orange juice, the drink gained a little more 'hair,' hence the name. It remains a popular, easy-to-make cocktail, perfect for casual gatherings.",
+    steps: [
+      "Add the vodka, peach schnapps, and orange juice into a highball glass over ice.",
+      "Stir briefly to combine.",
+      "Garnish with an orange wheel.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 69,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 //TODO
 //martinis,
 //collins,
 //old fashioned,
+//tiki,
 //negronis,
 //mules,
 //margaritas,
@@ -5907,9 +5971,20 @@ export const defaultCocktails = [
 //alexander,
 //juleps,
 //*highballs
-//navels
+//*navels
 //shots
 //punches
 //cobblers
 //flips
 //bucks
+//
+//St germain
+//italicus
+//dubonnet
+//benedictine
+//midori
+//lillet blanc
+//galliano
+//frangelico
+//sherry
+//limoncello

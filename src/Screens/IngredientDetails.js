@@ -1,4 +1,4 @@
-import { Divider, Text, FAB, IconButton } from "react-native-paper";
+import { Divider, Text, FAB, IconButton, Portal, Snackbar } from "react-native-paper";
 import { View, StyleSheet, ScrollView, Dimensions } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import CocktailsList from "~/Components/CocktailsList";
@@ -84,6 +84,7 @@ const IngredientDetails = ({ navigation, route }) => {
   }, [selectedIngredient]);
 
   const [isDuplicateVisible, hideDuplicateModal, showDuplicateModal] = useModalToggler();
+  const [isSnackbarVisible, hideSnackbar, showSnackbar] = useModalToggler();
 
   return (
     <View style={styles.container}>
@@ -117,9 +118,14 @@ const IngredientDetails = ({ navigation, route }) => {
       <View style={styles.fabRow}>
         <FAB
           icon="cart"
-          onPress={() =>
-            dispatch(toggleInCartIngredient({ profileID: selectedProfileID, ingredientID: selectedIngredient.id }))
-          }
+          onPress={() => {
+            dispatch(toggleInCartIngredient({ profileID: selectedProfileID, ingredientID: selectedIngredient.id }));
+            if (!inCart) {
+              showSnackbar();
+            } else {
+              hideSnackbar();
+            }
+          }}
           variant={inCart ? "primary" : "surface"}
           theme={{
             colors: {
@@ -148,6 +154,18 @@ const IngredientDetails = ({ navigation, route }) => {
         hideDialog={hideDuplicateModal}
         text="Are you sure you want to create a duplicate of this ingredient?"
       />
+      <Portal>
+        <Snackbar
+          visible={isSnackbarVisible}
+          onDismiss={hideSnackbar}
+          duration={2500}
+          elevation={1}
+          style={styles.snackbar}
+          action={{ label: "OK", onPress: () => hideSnackbar() }}
+        >
+          Added ingredient to shopping list
+        </Snackbar>
+      </Portal>
     </View>
   );
 };
@@ -193,6 +211,9 @@ const styles = StyleSheet.create({
   },
   headerButton: {
     marginHorizontal: 0,
+  },
+  snackbar: {
+    bottom: 80,
   },
 });
 export default IngredientDetails;

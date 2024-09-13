@@ -1,4 +1,4 @@
-import { Divider, Text, FAB, IconButton } from "react-native-paper";
+import { Divider, Text, FAB, IconButton, Portal, Snackbar } from "react-native-paper";
 import { View, StyleSheet, ScrollView, Image, Dimensions } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import IngredientsList from "~/Components/IngredientsList";
@@ -113,6 +113,8 @@ const CocktailDetails = ({ navigation, route }) => {
 
   const [isDuplicateVisible, hideDuplicateModal, showDuplicateModal] = useModalToggler();
 
+  const [isSnackbarVisible, hideSnackbar, showSnackbar] = useModalToggler();
+
   return (
     <View style={styles.container}>
       <ScrollView>
@@ -160,9 +162,14 @@ const CocktailDetails = ({ navigation, route }) => {
       <FAB
         icon="star"
         style={styles.fab}
-        onPress={() =>
-          dispatch(toggleFavoritedCocktail({ profileID: selectedProfileID, cocktailID: selectedCocktail.id }))
-        }
+        onPress={() => {
+          dispatch(toggleFavoritedCocktail({ profileID: selectedProfileID, cocktailID: selectedCocktail.id }));
+          if (!favorite) {
+            showSnackbar();
+          } else {
+            hideSnackbar();
+          }
+        }}
         variant={favorite ? "primary" : "surface"}
         theme={{
           colors: {
@@ -177,6 +184,18 @@ const CocktailDetails = ({ navigation, route }) => {
         hideDialog={hideDuplicateModal}
         text="Are you sure you want to create a duplicate of this cocktail?"
       />
+      <Portal>
+        <Snackbar
+          visible={isSnackbarVisible}
+          onDismiss={hideSnackbar}
+          duration={2500}
+          elevation={1}
+          style={styles.snackbar}
+          action={{ label: "OK", onPress: () => hideSnackbar() }}
+        >
+          Added cocktail to favorites list
+        </Snackbar>
+      </Portal>
     </View>
   );
 };
@@ -235,6 +254,9 @@ const styles = StyleSheet.create({
   cameraButtonNew: {
     margin: 16,
     left: Dimensions.get("window").width / 2 - 35,
+  },
+  snackbar: {
+    bottom: 80,
   },
 });
 export default CocktailDetails;

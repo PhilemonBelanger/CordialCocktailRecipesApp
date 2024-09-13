@@ -1,4 +1,4 @@
-import { Card, IconButton, Avatar } from "react-native-paper";
+import { Card, IconButton, Avatar, Portal, Snackbar } from "react-native-paper";
 import { StyleSheet } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { theme } from "~/Constants/theme";
@@ -13,14 +13,21 @@ import {
 } from "~/Utils/selectors.utils";
 import { toggleFavoritedCocktail } from "~/Reducers/profilesActions";
 import { useEffect, useState } from "react";
+import { useModalToggler } from "~/Hooks/useModalToggler";
 
 const CocktailCard = ({ item = {}, allIngredients = [], onCardPress = NOOP }) => {
   const dispatch = useDispatch();
   const selectedProfileID = useSelector(selectedProfileIDSelector);
   const ownedIngredientIDs = useSelector(selectedProfileOwnedIngredientsSelector);
   const favorite = useSelector((state) => selectedProfileCocktailIsInFavoritesSelector(state, item.id));
+  const [isSnackbarVisible, hideSnackbar, showSnackbar] = useModalToggler();
   const toggleFavorite = () => {
     dispatch(toggleFavoritedCocktail({ profileID: selectedProfileID, cocktailID: item.id }));
+    if (!favorite) {
+      showSnackbar();
+    } else {
+      hideSnackbar();
+    }
   };
   const ingredientsString = ENABLE_SUBTITLE_DYNAMIC_LISTINGS
     ? formatIngredientsString(item.ingredients, allIngredients, ownedIngredientIDs)
@@ -53,6 +60,18 @@ const CocktailCard = ({ item = {}, allIngredients = [], onCardPress = NOOP }) =>
         }
         right={() => <IconButton icon="star" mode={"contained"} selected={favorite} onPress={toggleFavorite} />}
       />
+      <Portal>
+        <Snackbar
+          visible={isSnackbarVisible}
+          onDismiss={hideSnackbar}
+          duration={2500}
+          elevation={1}
+          style={styles.snackbar}
+          action={{ label: "OK", onPress: () => hideSnackbar() }}
+        >
+          Added cocktail to favorites list
+        </Snackbar>
+      </Portal>
     </Card>
   );
 };
@@ -74,6 +93,9 @@ const styles = StyleSheet.create({
     left: -10,
     top: 3,
     marginRight: 20,
+  },
+  snackbar: {
+    bottom: 80,
   },
 });
 

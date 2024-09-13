@@ -1,4 +1,4 @@
-import { Card, IconButton } from "react-native-paper";
+import { Card, IconButton, Portal, Snackbar } from "react-native-paper";
 import { StyleSheet, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { theme } from "~/Constants/theme";
@@ -14,6 +14,7 @@ import {
   selectedProfileOwnedIngredientsSelector,
 } from "~/Utils/selectors.utils";
 import { toggleInCartIngredient, toggleOwnedIngredient } from "~/Reducers/profilesActions";
+import { useModalToggler } from "~/Hooks/useModalToggler";
 
 const IngredientsCard = ({
   item = {},
@@ -29,12 +30,18 @@ const IngredientsCard = ({
   const ownedIngredientIDs = useSelector(selectedProfileOwnedIngredientsSelector);
   const owned = useSelector((state) => selectedProfileIngredientIsOwnedSelector(state, item.id));
   const inCart = useSelector((state) => selectedProfileIngredientIsInCartSelector(state, item.id));
+  const [isSnackbarVisible, hideSnackbar, showSnackbar] = useModalToggler();
 
   const toggleOwned = () => {
     dispatch(toggleOwnedIngredient({ profileID: selectedProfileID, ingredientID: item.id }));
   };
   const toggleinCart = () => {
     dispatch(toggleInCartIngredient({ profileID: selectedProfileID, ingredientID: item.id }));
+    if (!inCart) {
+      showSnackbar();
+    } else {
+      hideSnackbar();
+    }
   };
 
   const ingredientsString = ENABLE_SUBTITLE_DYNAMIC_LISTINGS
@@ -61,6 +68,18 @@ const IngredientsCard = ({
           </View>
         )}
       />
+      <Portal>
+        <Snackbar
+          visible={isSnackbarVisible}
+          onDismiss={hideSnackbar}
+          duration={2500}
+          elevation={1}
+          style={styles.snackbar}
+          action={{ label: "OK", onPress: () => hideSnackbar() }}
+        >
+          Added ingredient to shopping list
+        </Snackbar>
+      </Portal>
     </Card>
   );
 };
@@ -80,6 +99,9 @@ const styles = StyleSheet.create({
     marginHorizontal: 6,
     marginVertical: 3,
     backgroundColor: theme.colors.primaryContainer,
+  },
+  snackbar: {
+    bottom: 80,
   },
 });
 

@@ -13,3 +13,7 @@ The app also lets you have multiple profiles for different list of owned ingredi
 ## How is it made?
 
 The app is based on the expo framework and react native, as a hobby project. I curated all cocktail recipes myself using public sources for reference. I then used AI to help me give a description to each cocktail which I corrected and verified for the most part (there might still be a few errors in there). I also generated AI images for every cocktail which were as accurate as possible.
+
+## Link
+
+The app is available in the [google play store](https://play.google.com/store/apps/details?id=com.philemonbelanger.cordialCocktailapp&pcampaignid=web_share) !

@@ -873,4 +873,45 @@ export const defaultIngredients = [
       "Lemon-lime soda was first popularized in the early 20th century as a citrus-flavored soft drink combining lemon and lime juices. The drink's refreshing taste and effervescence made it a favorite mixer for cocktails",
     editable: false,
   },
+  {
+    id: 134,
+    name: "Pickled Onion",
+    description:
+      "Pickled onions, often small pearl onions preserved in vinegar, add a sharp and tangy flavor to cocktails.",
+    editable: false,
+  },
+  {
+    id: 135,
+    name: "Cocoa Powder",
+    description:
+      "Cocoa powder is made from roasted and ground cacao beans. In cocktails, it is typically used as a garnish.",
+    editable: false,
+  },
+  {
+    id: 136,
+    name: "Apple Juice",
+    description:
+      "Apple juice, made from pressed apples, adds a crisp and natural sweetness to cocktails, often used to balance stronger spirits or to enhance fruity and autumnal flavors.",
+    editable: false,
+  },
+  {
+    id: 137,
+    name: "Sour Apple Schnapps",
+    description:
+      "Sour apple schnapps is a tangy, apple-flavored liqueur often used in cocktails like the Appletini to add a sweet and tart kick.",
+    editable: false,
+  },
+  {
+    id: 138,
+    name: "Apple",
+    description:
+      "Apples, with their crisp sweetness and tartness, are commonly used in cocktails as fresh juice, infused spirits, or garnishes to add a bright, fruity complexity to drinks.",
+    editable: false,
+  },
+  {
+    id: 139,
+    name: "Sake",
+    description: ".",
+    editable: false,
+  },
 ];

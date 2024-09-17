@@ -5955,9 +5955,323 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 160,
+    name: "50/50 Martini",
+    description:
+      "The 50/50 Martini is a balanced variation of the classic Martini, equal parts gin and dry vermouth. Popular during the early 20th century, this drink offers a lighter and more approachable profile compared to its more gin-heavy counterparts. The addition of orange bitters provides a citrusy layer that enhances the complexity of the cocktail, while the lemon twist garnish adds a fragrant finishing touch.",
+    steps: [
+      "Add the gin, dry vermouth, and orange bitters to a mixing glass.",
+      "Fill with ice and stir until well-chilled.",
+      "Strain into a chilled cocktail glass.",
+      "Garnish with a lemon twist.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 59,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 12,
+        quantity: "1 dash",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 161,
+    name: "Gibson",
+    description:
+      "The Gibson, a classic martini variation, dates back to the late 1800s. It is distinguished by its garnish—a pickled cocktail onion instead of the traditional olive or lemon twist. Named after either a businessman named Charles Dana Gibson or possibly a bartender's creation for a patron named Gibson, this drink can be made with either gin or vodka, but its signature dry character is maintained with the use of dry vermouth.",
+    steps: [
+      "Add the gin (or vodka) and dry vermouth into a mixing glass with ice and stir until well-chilled.",
+      "Strain into a chilled cocktail glass.",
+      "Garnish with a pickled onion.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 59,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 134,
+        quantity: "1",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 162,
+    name: "Perfect Martini",
+    description:
+      "The Perfect Martini gets its name from the balanced use of both sweet and dry vermouth, creating a 'perfect' harmony of flavors. It emerged in the late 19th or early 20th century during the golden age of cocktails. While its exact origin is debated, it is considered a refined variation of the classic martini, offering a more complex and nuanced taste.",
+    steps: [
+      "Add the gin (or vodka), orange bitters, and both vermouths into a mixing glass with ice.",
+      "Stir until well-chilled.",
+      "Strain into a chilled cocktail glass.",
+      "Garnish with an orange zest twist.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 59,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 11,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 12,
+        quantity: "1 dash",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 163,
+    name: "Paisley Martini",
+    description:
+      "The Paisley Martini is a modern twist on the classic martini, named for its elegant and intricate flavor profile, much like the decorative paisley pattern. While its exact origins are unclear, it's a contemporary creation designed to offer a unique take on the traditional martini by adding scotch to the mix.",
+    steps: [
+      "Add the gin, dry vermouth, and scotch whiskey into a mixing glass with ice.",
+      "Stir until well-chilled.",
+      "Strain into a chilled cocktail glass.",
+      "Garnish with a lemon zest twist.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 59,
+        quantity: "1/3 oz",
+        optional: false,
+      },
+      {
+        id: 43,
+        quantity: "1 tbsp",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 164,
+    name: "Chocolate Martini",
+    description:
+      "The Chocolate Martini is a decadent and indulgent cocktail, popular in the late 20th century as a dessert-like twist on the classic Martini. The mix of Irish cream, creme de cacao, and vodka offers a rich and creamy chocolate flavor, making it a favorite for those with a sweet tooth. Garnishing with cocoa powder enhances its luxurious feel, often enjoyed as a treat after dinner.",
+    steps: [
+      "Rim a chilled cocktail glass with cocoa powder and put it aside.",
+      "Add the Irish cream, creme de cacao, and vodka into a mixing glass with ice.",
+      "Stir until well-chilled.",
+      "Strain into a the glass.",
+      "Garnish with cocoa powder.",
+    ],
+    ingredients: [
+      {
+        id: 92,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 110,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 29,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 135,
+        quantity: "1 pinch",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 165,
+    name: "Appletini",
+    description:
+      "The Appletini, short for Apple Martini, became popular in the late 1990s and early 2000s during the rise of flavored martinis. This cocktail is known for its bright green hue and sweet-tart flavor, typically achieved with the combination of apple schnapps, vodka, and apple juice. The addition of lemon juice balances the sweetness, while a slice of granny smith apple adds a refreshing garnish.",
+    steps: [
+      "In a cocktail shaker, add vodka, apple juice, sour apple schnapps, and lemon juice.",
+      "Add ice and shake vigorously.",
+      "Strain into a chilled martini glass.",
+      "Garnish with a slice of granny smith apple.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 136,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 137,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 138,
+        quantity: "1 slice",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 166,
+    name: "Chartreuse Martini",
+    description:
+      "The Chartreuse Martini is a modern variation of the classic martini, featuring the herbal French liqueur Chartreuse. The drink's name comes from the inclusion of Chartreuse, a spirit made by Carthusian monks since the 18th century, known for its complex blend of 130 botanicals. This cocktail blends the traditional martini concept with the unique flavors of this historical liqueur.",
+    steps: [
+      "Add the gin, dry vermouth, and green chartreuse into a mixing glass with ice.",
+      "Stir until well-chilled.",
+      "Strain into a chilled cocktail glass.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 52,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 59,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 167,
+    name: "Saketini",
+    description:
+      "A modern twist on the classic Martini, the Saketini merges gin with the delicate flavors of sake. Popularized in the late 20th century during the rise of fusion cuisine, this cocktail reflects the blend of Western and Eastern influences. Light and crisp, it offers a refined drinking experience with a subtle umami touch from the sake.",
+    steps: [
+      "Add the gin and sake into a mixing glass with ice.",
+      "Stir until well-chilled.",
+      "Strain into a chilled cocktail glass.",
+      "Garnish with a green olive.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 139,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 34,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 168,
+    name: "20th Century",
+    description:
+      "The 20th Century cocktail was created by British bartender C.A. Tuck in the early 20th century. Named after the famous 20th Century Limited luxury train service that ran between New York and Chicago, this cocktail blends gin with Lillet blanc, white creme de cacao, and lemon juice. Its surprising balance of flavors makes it a refreshing yet complex drink, evoking the modern elegance of the train’s heyday.",
+    steps: [
+      "Add the gin, Lillet blanc, white creme de cacao, and lemon juice to a shaker with ice.",
+      "Shake until well-chilled, about 15 seconds.",
+      "Fine-strain into a chilled coupe glass.",
+      "Garnish with a lemon twist.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 56,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 119,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 //TODO
-//martinis,
+//*martinis,
 //collins,
 //old fashioned,
 //tiki,
@@ -5978,6 +6292,7 @@ export const defaultCocktails = [
 //flips
 //bucks
 //
+//Blue curacao
 //St germain
 //italicus
 //dubonnet

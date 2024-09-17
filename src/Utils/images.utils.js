@@ -321,6 +321,24 @@ export const getCocktailImage = (id) => {
       return require("src/CocktailImages/158.jpg");
     case "159":
       return require("src/CocktailImages/159.jpg");
+    case "160":
+      return require("src/CocktailImages/160.jpg");
+    case "161":
+      return require("src/CocktailImages/161.jpg");
+    case "162":
+      return require("src/CocktailImages/162.jpg");
+    case "163":
+      return require("src/CocktailImages/163.jpg");
+    case "164":
+      return require("src/CocktailImages/164.jpg");
+    case "165":
+      return require("src/CocktailImages/165.jpg");
+    case "166":
+      return require("src/CocktailImages/166.jpg");
+    case "167":
+      return require("src/CocktailImages/167.jpg");
+    case "168":
+      return require("src/CocktailImages/168.jpg");
     default:
       return undefined;
   }

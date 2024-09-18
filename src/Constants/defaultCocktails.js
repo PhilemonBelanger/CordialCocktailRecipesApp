@@ -6269,29 +6269,204 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 169,
+    name: "Vodka Collins",
+    description:
+      "A variation of the classic Tom Collins, the Vodka Collins swaps gin for vodka, offering a lighter, more neutral flavor profile. This cocktail originated as a refreshing, effervescent drink in the mid-20th century, following the rise of vodka's popularity in the United States. It's served in a Collins glass and garnished with a lemon wheel and optional maraschino cherry, making it a go-to choice for a bright, citrus-forward drink.",
+    steps: [
+      "Add the vodka, lemon juice, and simple syrup to a Collins glass.",
+      "Fill with ice, top with soda water and stir.",
+      "Garnish with a lemon wheel and maraschino cherry (optional).",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: true,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 170,
+    name: "Rum Collins",
+    description:
+      "A twist on the classic Tom Collins, the Rum Collins replaces gin with rum, creating a slightly sweeter and richer cocktail. The drink is believed to have originated in the late 19th century, taking its name from the Collins glass in which it’s traditionally served. With its refreshing blend of rum, citrus, and soda, the Rum Collins is a popular summer cocktail.",
+    steps: [
+      "Add the rum, lemon juice, Angostura bitters, and simple syrup to a Collins glass.",
+      "Fill with ice, top with soda water and stir.",
+      "Garnish with a lemon wheel and maraschino cherry (optional).",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "1 dash",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: true,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 171,
+    name: "Whiskey Collins",
+    description:
+      "The Whiskey Collins is a refreshing variation of the classic Tom Collins, swapping the gin for whiskey. The cocktail dates back to the 19th century, part of the Collins family of drinks known for their citrus and soda elements. Popularized in the United States, the whiskey variant brings a rich depth to the otherwise light and bubbly drink. The lemon juice adds zest while the soda water provides a sparkling finish.",
+    steps: [
+      "Add the bourbon, lemon juice, Angostura bitters, and simple syrup to a Collins glass.",
+      "Fill with ice, top with soda water, and stir.",
+      "Garnish with a lemon wheel and maraschino cherry (optional).",
+    ],
+    ingredients: [
+      {
+        id: 35,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "2 dashes",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: true,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 //TODO
-//*martinis,
-//collins,
+//
+// CATEGORIES
+//Blazer cocktails
+//Buck
+//Cobbler
+//Colada
+//*Collins
+//Cooler
+//Crusta
+//Cup
+//Daisy
+//Egg Nog
+//Fix
+//Fizz
+//Flip
+//Frappé
+//Frozen
+//Grog
+//*Highball
+//Julep
+//*Martini
+//*Neo Martini
+//Mull
+//Nogs
+//Posset
+//Pousse café
+//Punch
+//Rickey
+//Sangaree
+//Scaffa
+//Screw
+//Shrub
+//Sling
+//Smash
+//Sour
+//Swizzle
+//Tea
+//Toddy
+//
+//
+// ALTERNATES
 //old fashioned,
 //tiki,
 //negronis,
 //mules,
 //margaritas,
-//fizz,
-//sours,
 //russians,
 //kirs,
 //alexander,
-//juleps,
-//*highballs
 //*navels
 //shots
-//punches
-//cobblers
-//flips
-//bucks
 //
+//
+// INGREDIENTS
 //Blue curacao
 //St germain
 //italicus

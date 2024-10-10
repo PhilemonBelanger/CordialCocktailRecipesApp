@@ -9,6 +9,7 @@ export const defaultCocktails = [
       "Strain into an ice-filled Collins glass.",
       "Top with ginger beer and briefly stir.",
       "Garnish with a lime wedge.",
+      "*Note: While we simplify all dark and white rums under these two categories, a Bermuda rum like Goslings is normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -1285,6 +1286,7 @@ export const defaultCocktails = [
       "Strain into an ice-filled Highball glass (preferably with a column of ice).",
       "Top with sparkling wine.",
       "Garnish with the tip of a mint sprig.",
+      "*Note: While we simplify all dark and white rums under these two categories, a young gold rum is normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -1643,6 +1645,7 @@ export const defaultCocktails = [
       "Blend at high speed for no more than 5 seconds.",
       "Pour the contents into a tall glass or Tiki mug and add additional crushed ice to fill, if necessary.",
       "Garnish with a mint sprig.",
+      "*Note: While we simplify all dark and white rums under these two categories, Jamaican, Purto Rican gold and jamaican 151 proof demerara rums are normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -2863,6 +2866,7 @@ export const defaultCocktails = [
       "Add the rum, Campari, pineapple juice, lime juice, and simple syrup into a shaker with ice and shake until well-chilled.",
       "Strain into a rocks glass over fresh ice.",
       "Garnish with a pineapple wedge.",
+      "*Note: While we simplify all dark and white rums under these two categories, either Jamaican or blackstrap rum is normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -3180,6 +3184,7 @@ export const defaultCocktails = [
       "Pour into a double rocks glass.",
       "Float the dark rum over the top.",
       "Garnish with a lime wheel and mint sprig.",
+      "*Note: While we simplify all dark and white rums under these two categories, Jamaican rums are normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -3827,6 +3832,7 @@ export const defaultCocktails = [
       "Shake all the ingredients except sparkling wine with ice.",
       "Strain into glass.",
       "Top with sparkling wine (normally Prosecco) and serve.",
+      "*Note: While we simplify all dark and white rums under these two categories, a light gold rum is normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -4053,6 +4059,7 @@ export const defaultCocktails = [
       "Add the white rum (or more traditionally aguardiente), lime juice and honey syrup into a shaker with ice, and shake until well-chilled.",
       "Strain into an old fashioned glass filled with fresh ice.",
       "Garnish with a lime wedge.",
+      "*Note: While we simplify all dark and white rums under these two categories, aguardiente is normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -5176,6 +5183,7 @@ export const defaultCocktails = [
       "Add the rum, lime juice, and grenadine into a shaker with ice.",
       "Shake until well-chilled.",
       "Strain into a chilled coupe glass.",
+      "*Note: While we simplify all dark and white rums under these two categories, Bacardi rum is normally used for this recipe.",
     ],
     ingredients: [
       {
@@ -6411,7 +6419,713 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 172,
+    name: "Rum Punch",
+    description:
+      "Rum Punch is a classic cocktail that traces its roots back to the Caribbean, where punch-style drinks were popularized by sailors and traders in the 17th century. The name 'Punch' is derived from the Hindi word 'panch,' meaning five, representing the traditional five ingredients: spirit, sugar, citrus, water, and spice. This cocktail showcases the rich history of rum, a spirit closely tied to the region's culture and colonial past.",
+    steps: [
+      "Add all ingredients into a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a Hurricane glass over fresh ice.",
+      "Garnish with a maraschino cherry.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "1 1/4 oz",
+        optional: false,
+      },
+      {
+        id: 1,
+        quantity: "1 1/4 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 65,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 22,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 173,
+    name: "Bermuda Rum Swizzle",
+    description:
+      "The Bermuda Rum Swizzle is often considered Bermuda's national drink, known for its complex blend of tropical juices and rums. Dating back to the early 20th century, this cocktail is traditionally prepared with a swizzle stick to mix and chill the drink. The combination of dark and white rums with falernum, citrus juices, and bitters creates a well-balanced and refreshing beverage, perfect for enjoying the island breeze.",
+    steps: [
+      "Fill a double old-fashioned glass halfway with crushed ice.",
+      "Add the dark rum, white rum, falernum, orange juice, pineapple juice, and lemon juice.",
+      "Holding a swizzle stick or bar spoon between your palms, spin the shaft to churn the mix vigorously until the glass is frosty.",
+      "Top with more crushed ice and add a few dashes of Angostura bitters.",
+      "Garnish with an orange slice, pineapple wedge, and cherry (optional).",
+      "*Note: While we simplify all dark and white rums under these two categories, a Bermuda rum like Goslings is normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 42,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 17,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "3 dashes",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "1 slice",
+        optional: true,
+      },
+      {
+        id: 76,
+        quantity: "1 wedge",
+        optional: true,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 174,
+    name: "Blue Hawaii",
+    description:
+      "The Blue Hawaii, not to be confused with the Blue Hawaiian, is a tropical cocktail created in 1957 by bartender Harry Yee in Honolulu, Hawaii. The vibrant blue color comes from blue curaçao, while the combination of vodka and light rum gives it a refreshing and spirited kick. This cocktail embodies the essence of island life, often associated with beach parties and summer vacations.",
+    steps: [
+      "Add all the ingredients into a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a Hurricane glass over crushed or pebble ice.",
+      "Garnish with a pineapple wedge.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 42,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 140,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 76,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 175,
+    name: "Rum Runner",
+    description:
+      "The Rum Runner cocktail was created in the late 1950s at the Holiday Isle Tiki Bar in Islamorada, Florida. Named after the Prohibition-era rum runners who smuggled alcohol, the drink pays homage to that history with its fruity and potent mix of rums and tropical flavors. The cocktail became popular for its tropical vibe and fun, beachside appeal.",
+    steps: [
+      "Add all the ingredients into a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a hurricane glass filled with crushed ice.",
+      "Garnish with a skewered maraschino cherry and pineapple wedge.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 63,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 141,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 78,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 65,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+      {
+        id: 76,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 176,
+    name: "Beachcomber",
+    description:
+      "The Beachcomber is a tropical cocktail that was popularized during the Tiki culture boom in the mid-20th century. It is often attributed to the legendary 'Trader Vic' or 'Don the Beachcomber,' who were instrumental in popularizing rum-based drinks with exotic flavors. The name 'Beachcomber' reflects its association with relaxed, tropical beach settings and island-inspired flavors.",
+    steps: [
+      "Add all ingredients into a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a chilled martini glass.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 15,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 22,
+        quantity: "1/6 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 177,
+    name: "Lost Lake",
+    description:
+      "The Lost Lake is a modern tiki cocktail created by Paul McGee at the Lost Lake bar in Chicago. It features a tropical mix of dark rum, lime, and pineapple, with passionfruit syrup adding a unique sweetness. The maraschino liqueur and Campari introduce a subtle bitterness, balancing the drink’s fruity profile. Known for its vibrant appearance and complex flavors, the Lost Lake is a favorite in tiki culture.",
+    steps: [
+      "Add all ingredients into a shaker with ice and shake until well-chilled.",
+      "Strain into a collins glass or tiki mug with crushed ice.",
+      "Garnish with pineapple leaves and an edible flower.",
+      "*Note: While we simplify all dark and white rums under these two categories, Jamaican rum is normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 142,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 22,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 7,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 76,
+        quantity: "2 leaves",
+        optional: true,
+      },
+      {
+        id: 143,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 178,
+    name: "Fog Cutter",
+    description:
+      "The Fog Cutter is a classic tiki cocktail that combines rum, gin, and cognac, offering a blend of citrus and nutty flavors from the lemon juice and orgeat. Created by Victor “Trader Vic” Bergeron in the 1940s, it became a staple of tiki culture with its strong, layered composition. The sherry float on top adds a unique twist, making this cocktail one with depth and complexity.",
+    steps: [
+      "Add all ingredients except the sherry into a shaker with ice and shake until well-chilled.",
+      "Strain into a chilled Collins glass filled with crushed ice, adding additional crushed ice if needed.",
+      "Float the sherry on top.",
+      "Garnish with a mint sprig.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 41,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 10,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 26,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 144,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 47,
+        quantity: "1 sprig",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 179,
+    name: "Navy Grog",
+    description:
+      "The Navy Grog is a potent tiki cocktail that dates back to the mid-20th century, combining multiple types of rum for a layered and complex flavor. Originally popularized by Don the Beachcomber and Trader Vic, this drink was a staple in the tiki movement. With honey syrup adding sweetness and a mix of citrus juices providing zest, the Navy Grog balances depth and refreshment, often enjoyed over crushed ice in tropical settings.",
+    steps: [
+      "Add all ingredients but the soda water to a shaker filled with crushed ice.",
+      "Shake until well-chilled.",
+      "Strain into a chilled rocks glass with fresh crushed ice.",
+      "Top with soda water.",
+      "Garnish with a mint sprig and lime wheel.",
+      "*Note: While we simplify all dark and white rums under these two categories, 1 oz of dark Jamaican, 1 oz or gold demerara and 1 oz of white Cuban or Puerto Rican rum are normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 42,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 51,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 73,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 47,
+        quantity: "1 sprig",
+        optional: true,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 180,
+    name: "Blue Hawaiian",
+    description:
+      "The Blue Hawaiian, not to be confused with the Blue Hawaii, is a tropical cocktail created in the 1950s, famous for its vibrant blue color and refreshing flavor. It combines white rum, blue curaçao, and pineapple juice with creamy coconut and a hint of citrus from lemon juice. It is basically a modified Pina Colada.",
+    steps: [
+      "Add all ingredients to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a hurricane glass over crushed ice.",
+      "Garnish with a pineapple wedge and a maraschino cherry.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 140,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 75,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+      {
+        id: 76,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 181,
+    name: "Painkiller",
+    description:
+      "The Painkiller is a tropical cocktail originating in the British Virgin Islands in the 1970s, created at the Soggy Dollar Bar. Known for its rich and creamy texture, the cocktail blends dark rum with pineapple, orange juice, and cream of coconut, delivering a smooth and indulgent drink. The Painkiller is often considered a more decadent cousin to the Piña Colada, typically garnished with a sprinkle of nutmeg and a pineapple wedge for a tropical touch.",
+    steps: [
+      "Add the rum, pineapple juice, orange juice, and cream of coconut to a shaker with cubed ice and shake vigorously but briefly to combine.",
+      "Strain into a hurricane glass or snifter over crushed ice.",
+      "Garnish with freshly grated nutmeg and a pineapple wedge.",
+      "*Note: While we simplify all dark and white rums under these two categories, Pusser's rum is normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 75,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 111,
+        quantity: "1 pinch",
+        optional: true,
+      },
+      {
+        id: 76,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 182,
+    name: "Hurricane",
+    description:
+      "The Hurricane is a tropical cocktail originating from New Orleans, created by bartender Pat O’Brien in the 1940s. It was named after the hurricane lamp-shaped glasses in which it was served. The cocktail combines both light and dark rums with citrus and passion fruit flavors, giving it a bold, fruity profile, often enjoyed during Mardi Gras and other festive occasions.",
+    steps: [
+      "Add all ingredients to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a large Hurricane glass over fresh ice.",
+      "Garnish with an orange wheel and a maraschino cherry.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 1,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 142,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 65,
+        quantity: "1 tsp",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "1 wheel",
+        optional: true,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 183,
+    name: "Three Dots & A Dash",
+    description:
+      "The Three Dots & A Dash is a tiki cocktail created by Don the Beachcomber during World War II. The drink's name is the Morse code for 'V,' standing for victory, and it was served to celebrate wartime victories. This rum-based cocktail features flavors of citrus, honey, and exotic spices, making it a tropical classic in the tiki genre.",
+    steps: [
+      "Add all ingredients to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a collins glass over fresh crushed ice.",
+      "Garnish with three cherries on a cocktail pick.",
+      "*Note: While we simplify all dark and white rums under these two categories, 1 1/2 oz of an aged Martinique rum and 1/2 oz of a blended dark rum are normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 17,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 145,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 51,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "1 dash",
+        optional: false,
+      },
+      {
+        id: 23,
+        quantity: "3",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 184,
+    name: "Halekulani",
+    description:
+      "The Halekulani is a tropical cocktail that hails from the famed Halekulani Hotel in Waikiki, Hawaii. Featuring rye whiskey, this drink combines citrus juices, pineapple, grenadine, and bitters, giving it a rich yet refreshing balance of sweet, sour, and fruity flavors.",
+    steps: [
+      "Add all ingredients to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a chilled classic coupe.",
+      "Garnish with an edible flower and a pineapple wedge.",
+    ],
+    ingredients: [
+      {
+        id: 25,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 65,
+        quantity: "1 barspoon",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "1 dash",
+        optional: false,
+      },
+      {
+        id: 143,
+        quantity: "1",
+        optional: true,
+      },
+      {
+        id: 76,
+        quantity: "1 wedge",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
+
 //TODO
 //
 // CATEGORIES
@@ -6455,7 +7169,7 @@ export const defaultCocktails = [
 //
 // ALTERNATES
 //old fashioned,
-//tiki,
+//*tiki,
 //negronis,
 //mules,
 //margaritas,

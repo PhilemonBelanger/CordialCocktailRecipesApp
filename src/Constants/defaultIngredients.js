@@ -911,7 +911,50 @@ export const defaultIngredients = [
   {
     id: 139,
     name: "Sake",
-    description: ".",
+    description:
+      "Sake is a traditional Japanese alcoholic beverage made from fermented rice, with origins dating back over a thousand years.",
+    editable: false,
+  },
+  {
+    id: 140,
+    name: "Blue Curaçao",
+    description:
+      "Blue Curaçao is a vibrant blue liqueur that originates from the Caribbean island of Curaçao. It is made from the dried peels of the Laraha orange, a bitter orange native to the island. The liqueur gained popularity in the 20th century, especially in tropical cocktails, due to its striking color and sweet, citrusy flavor.",
+    editable: false,
+  },
+  {
+    id: 141,
+    name: "Banana liqueur",
+    description:
+      "Banana liqueur, also known as crème de banane, is a sweet, banana-flavored liqueur typically used in tropical and dessert-style cocktails.",
+    editable: false,
+  },
+  {
+    id: 142,
+    name: "Passionfruit syrup",
+    description:
+      "Passionfruit syrup is a tropical sweetener made from the pulp of passionfruit. It is widely used in tiki cocktails and tropical-inspired beverages.",
+    editable: false,
+  },
+  {
+    id: 143,
+    name: "Edible flower",
+    description:
+      "Edible flowers have been used in culinary traditions for centuries, bringing vibrant colors and delicate flavors to dishes. In cocktails they are mostyle used for garnishes, especially in tiki culture.",
+    editable: false,
+  },
+  {
+    id: 144,
+    name: "Sherry",
+    description:
+      "Sherry is a fortified wine from the Jerez region of Spain, with origins dating back to the Phoenician era. The name 'Sherry' is derived from 'Jerez,' the town where it is produced.",
+    editable: false,
+  },
+  {
+    id: 145,
+    name: "Allspice Dram",
+    description:
+      "Allspice Dram, also known as pimento dram, is a liqueur flavored with the dried berries of the allspice tree. Originally from Jamaica, this liqueur was traditionally used in tiki drinks and tropical cocktails.",
     editable: false,
   },
 ];

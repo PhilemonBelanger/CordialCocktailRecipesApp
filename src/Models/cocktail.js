@@ -5,6 +5,7 @@ class Cocktail {
     description = "",
     steps = [],
     ingredients = [],
+    tags = [],
     editable = false,
     uri = undefined,
   }) {
@@ -13,6 +14,7 @@ class Cocktail {
     this.description = description;
     this.steps = steps;
     this.ingredients = ingredients;
+    this.tags = tags;
     this.editable = editable;
     this.uri = uri;
   }

@@ -22,6 +22,7 @@ export const setCocktails = (cocktails) => {
         description: cocktails[key].description,
         steps: [...cocktails[key].steps],
         ingredients: [...cocktails[key].ingredients],
+        tags: [...cocktails[key].tags],
         editable: cocktails[key].editable,
         uri: cocktails[key].uri,
       })
@@ -52,6 +53,7 @@ export const createCocktail = ({
     description,
     steps,
     ingredients,
+    tags: [4], //TODO implement this
     editable,
     uri,
   });
@@ -76,6 +78,7 @@ export const updateCocktail = ({
     description,
     steps,
     ingredients,
+    tags: [4], //TODO implement this
     editable,
     uri,
   });

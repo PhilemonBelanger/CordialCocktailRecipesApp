@@ -1,4 +1,4 @@
-import { Divider, Text, FAB, IconButton, Portal, Snackbar } from "react-native-paper";
+import { Divider, Text, FAB, IconButton, Portal, Snackbar, Chip } from "react-native-paper";
 import { View, StyleSheet, ScrollView, Image, Dimensions } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import IngredientsList from "~/Components/IngredientsList";
@@ -24,6 +24,7 @@ import { ConfirmationDialog } from "~/Components/ConfirmationDialog";
 import { useModalToggler } from "~/Hooks/useModalToggler";
 import { cacheCocktailImage } from "~/Utils/cache.utils";
 import { MIN_ID_FOR_NEW_ITEMS } from "~/Constants/constants";
+import { defaultTags } from "~/Constants/tags";
 
 const CocktailDetails = ({ navigation, route }) => {
   const dispatch = useDispatch();
@@ -34,6 +35,7 @@ const CocktailDetails = ({ navigation, route }) => {
   const [cocktailImage, setCocktailImage] = useState(undefined);
   const selectedProfileID = useSelector(selectedProfileIDSelector);
   const favorite = useSelector((state) => selectedProfileCocktailIsInFavoritesSelector(state, cocktailID));
+  const allTags = defaultTags;
 
   const handleSearchPress = async () => {
     const searchQuery = `${selectedCocktail.name.split(" ").join("+")}+cocktail`;
@@ -131,6 +133,18 @@ const CocktailDetails = ({ navigation, route }) => {
           </Text>
           <IconButton icon="open-in-new" onPress={handleSearchPress} />
         </View>
+        {selectedCocktail.tags && selectedCocktail.tags.length > 0 && (
+          <View style={styles.tagsContainer}>
+            {selectedCocktail.tags.map((tagID) => {
+              const tagName = allTags.find((allTag) => allTag.id?.toString() === tagID?.toString()).name;
+              return (
+                <Chip compact={true} mode="outlined" key={tagID} style={styles.tag}>
+                  {tagName}
+                </Chip>
+              );
+            })}
+          </View>
+        )}
         <View style={styles.subContainerDescription}>
           <Text variant="bodyLarge" numberOfLines={15}>
             {capitalizeFirstLetter(selectedCocktail.description)}
@@ -257,6 +271,15 @@ const styles = StyleSheet.create({
   },
   snackbar: {
     bottom: 80,
+  },
+  tagsContainer: {
+    marginHorizontal: 10,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-start",
+  },
+  tag: {
+    marginHorizontal: 2,
   },
 });
 export default CocktailDetails;

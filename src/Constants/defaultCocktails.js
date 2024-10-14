@@ -1699,6 +1699,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -2900,6 +2901,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -3223,6 +3225,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -4591,6 +4594,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -4896,6 +4900,7 @@ export const defaultCocktails = [
         optional: false,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6467,6 +6472,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6534,6 +6540,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6584,6 +6591,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6644,6 +6652,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6689,6 +6698,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6744,6 +6754,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6799,6 +6810,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6856,6 +6868,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6906,6 +6919,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -6951,6 +6965,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -7006,6 +7021,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -7062,6 +7078,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
   {
@@ -7122,6 +7139,7 @@ export const defaultCocktails = [
         optional: true,
       },
     ],
+    tags: [5],
     editable: false,
   },
 ];

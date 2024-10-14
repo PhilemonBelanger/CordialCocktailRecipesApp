@@ -5,7 +5,7 @@ import { Searchbar, SegmentedButtons, FAB, IconButton } from "react-native-paper
 import CocktailsList from "~/Components/CocktailsList";
 import { isCocktailAvailable } from "~/Utils/cocktails.utils";
 import { createCocktail, resetCocktails } from "~/Reducers/cocktailsActions";
-import { resetIngredients } from "~/Reducers/ingredientsActions";
+import DropDownPicker from "react-native-dropdown-picker";
 import { theme } from "~/Constants/theme";
 import {
   allCocktailsSelector,
@@ -15,6 +15,7 @@ import {
 } from "~/Utils/selectors.utils";
 import { ConfirmationDialog } from "~/Components/ConfirmationDialog";
 import { useModalToggler } from "~/Hooks/useModalToggler";
+import { defaultTags } from "~/Constants/tags";
 
 const CocktailsScreen = ({ navigation }) => {
   const dispatch = useDispatch();
@@ -25,9 +26,13 @@ const CocktailsScreen = ({ navigation }) => {
   const [searchResults, setSearchResults] = useState(cocktails);
   const ownedIngredientIDs = useSelector(selectedProfileOwnedIngredientsSelector);
   const favoriteCocktailIDs = useSelector(selectedProfileFavoritedCocktailsSelector);
+  const [showDropDown, setShowDropDown] = useState(false);
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+  const [selectedTag, setSelectedTag] = useState();
+  const tagData = [{ value: 0, label: "..." }, ...defaultTags.map((tag) => ({ value: tag.id, label: tag.name }))];
   useEffect(() => {
     filterCocktails();
-  }, [cocktails, ingredients, searchQuery, filters, ownedIngredientIDs, favoriteCocktailIDs]);
+  }, [cocktails, ingredients, searchQuery, filters, ownedIngredientIDs, favoriteCocktailIDs, selectedTag]);
 
   const filterCocktails = () => {
     const filteredCocktails = cocktails.filter((item) => {
@@ -40,7 +45,11 @@ const CocktailsScreen = ({ navigation }) => {
       ) {
         visible = false;
       }
-      const returnValue = visible && item.name.toLowerCase().includes(searchQuery.toLowerCase());
+      let tagVisible = true;
+      if (selectedTag && selectedTag > 0) {
+        tagVisible = item?.tags?.includes(selectedTag);
+      }
+      const returnValue = visible && tagVisible && item.name.toLowerCase().includes(searchQuery.toLowerCase());
       return returnValue;
     });
     filteredCocktails.sort(function (a, b) {
@@ -63,6 +72,17 @@ const CocktailsScreen = ({ navigation }) => {
     });
   };
 
+  const searchBarButton = () => (
+    <View style={{ flexDirection: "row" }}>
+      <IconButton style={{ marginHorizontal: 0 }} icon="label" onPress={() => setDropdownVisible(!dropdownVisible)} />
+      <IconButton
+        style={{ marginHorizontal: 0 }}
+        icon="filter"
+        onPress={isFiltersVisible ? hideFilters : showFilters}
+      />
+    </View>
+  );
+
   return (
     <View style={styles.container}>
       <View style={styles.searchbarContainer}>
@@ -71,8 +91,23 @@ const CocktailsScreen = ({ navigation }) => {
           onChangeText={setSearchQuery}
           value={searchQuery}
           theme={{ colors: { elevation: { level3: theme.colors.elevation.level0 } } }}
-          right={() => <IconButton icon="filter" onPress={isFiltersVisible ? hideFilters : showFilters} />}
+          right={searchBarButton}
         />
+        {dropdownVisible && (
+          <View>
+            <DropDownPicker
+              open={showDropDown}
+              value={selectedTag}
+              items={tagData}
+              setOpen={setShowDropDown}
+              setValue={setSelectedTag}
+              searchable={true}
+              placeholder="Tag"
+              searchPlaceholder="Search"
+              listMode="MODAL"
+            />
+          </View>
+        )}
         {isFiltersVisible && (
           <SegmentedButtons
             multiSelect

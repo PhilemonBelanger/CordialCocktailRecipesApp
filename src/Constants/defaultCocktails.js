@@ -7142,12 +7142,90 @@ export const defaultCocktails = [
     tags: [5],
     editable: false,
   },
+  {
+    id: 185,
+    name: "Blue Blazer",
+    description:
+      "The Blue Blazer is a dramatic cocktail that dates back to the mid-19th century and was popularized by legendary bartender Jerry Thomas. This show-stopping drink involves igniting Scotch whisky and pouring the flaming liquid back and forth between two tankards, creating an impressive blue flame. Traditionally made to warm the body on cold nights, the Blue Blazer remains a captivating cocktail, offering both spectacle and warmth.",
+    steps: [
+      "This recipe makes 2 drinks.",
+      "Disclaimer: This recipe is dangerous to make. Execute it at your own risk.",
+      "Preheat two large tankards with boiling water and warm the whisky separately.",
+      "Pour the warmed whisky into one tankard and fresh boiling water into the other.",
+      "Ignite the whisky with a long match.",
+      "While blazing, pour the whisky into the other tankard, alternating between them to mix.",
+      "Increase the distance between the tankards for a longer blue flame.",
+      "Extinguish the flame by covering the tankard with the other, then pour into a glass.",
+      "Sweeten to taste by stirring in sugar.",
+      "Garnish with a lemon twist.",
+    ],
+    ingredients: [
+      {
+        id: 43,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 77,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 58,
+        quantity: "2 barspoon",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 186,
+    name: "Brandy Blazer",
+    description:
+      "The Brandy Blazer is a dramatic, flame-kissed cocktail dating back to the 19th century. Inspired by the Blue Blazer, this drink showcases the rich flavors of brandy enhanced with heat, making it a warming and visually striking choice. Traditionally prepared by flaming the brandy and adding hot water and sugar, it is often served as a showpiece in classic bars.",
+    steps: [
+      "Disclaimer: This recipe is dangerous to make. Execute it at your own risk.",
+      "Pour the brandy or cognac into a warmed snifter glass and rest the bowl on its side, supported by the rim of an old-fashioned glass.",
+      "Flame the brandy or cognac and carefully move the glass back to an upright position on your work surface.",
+      "Pour in the hot water to extinguish any remaining flame.",
+      "Sweeten to taste by stirring in sugar.",
+      "Garnish with a lemon twist.",
+    ],
+    ingredients: [
+      {
+        id: 112,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 77,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 58,
+        quantity: "1 barspoon",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
 //
 // CATEGORIES
-//Blazer cocktails
+//*Blazer cocktails
 //Buck
 //Cobbler
 //Colada
@@ -7210,3 +7288,6 @@ export const defaultCocktails = [
 //frangelico
 //sherry
 //limoncello
+//pisco
+//cachaca
+//chambord

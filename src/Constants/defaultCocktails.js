@@ -7220,13 +7220,210 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 187,
+    name: "Kentucky Buck",
+    description:
+      "The Kentucky Buck is a bourbon-based buck cocktail that adds a fruity twist. Originating in the southern United States, this drink incorporates fresh strawberries and ginger beer, providing a balance of sweet, tangy, and effervescent flavors. Its name is a nod to Kentucky’s rich bourbon heritage and the ‘Buck’ style cocktails that mix spirits with citrus and ginger beer.",
+    steps: [
+      "Muddle the strawberry in the base of a shaker.",
+      "Add the bourbon, lemon juice, simple syrup, and Angostura bitters to the shaker.",
+      "Shake with ice and fine strain into an ice-filled highball glass.",
+      "Top with ginger beer.",
+      "Garnish with a strawberry and a lemon wheel.",
+    ],
+    ingredients: [
+      {
+        id: 106,
+        quantity: "1",
+        optional: false,
+      },
+      {
+        id: 35,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "2 dashes",
+        optional: false,
+      },
+      {
+        id: 5,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 106,
+        quantity: "1",
+        optional: true,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 188,
+    name: "Gin Buck",
+    description:
+      "The Gin Buck is a simple yet invigorating cocktail that dates back to the early 20th century, offering a refreshing blend of gin and ginger beer with a splash of citrus. Part of the 'Buck' family of drinks, it shares similarities with the Moscow Mule, but uses gin instead of vodka. It's a light, zesty, and slightly spicy drink, perfect for warm weather or casual sipping.",
+    steps: [
+      "Fill a highball glass with ice, then add the gin and lemon juice.",
+      "Top with ginger beer (ginger ale works too) and stir briefly to combine.",
+      "Garnish with a lemon wheel.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 5,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 189,
+    name: "Mamie Taylor",
+    description:
+      "The Mamie Taylor is a refreshing, ginger-infused cocktail invented in 1899. Named after a famous opera singer of the same name (spelled differently), the drink combines the smoky notes of blended Scotch with the tangy brightness of lime juice, all topped with effervescent ginger beer. This buck-style drink is simple yet satisfying, offering a balance of spice and citrus.",
+    steps: [
+      "Add the scotch and lime juice to a highball glass full of ice.",
+      "Top with the ginger beer and stir briefly and gently to combine.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 43,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 5,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 190,
+    name: "Chilcano",
+    description:
+      "The Chilcano is a refreshing Peruvian cocktail dating from the 1800s that highlights the country’s national spirit, pisco. This drink is a simple yet vibrant mix of pisco, lime juice, and ginger ale, topped with a few drops of Angostura bitters for added complexity. The Chilcano is part of the buck and mules family of cocktails incorporating a spirit, ginger and citrus.",
+    steps: [
+      "Fill a highball glass with ice, then add the pisco and lime juice.",
+      "Top with ginger ale and add the drops of bitters.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 74,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 117,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "2 drops",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 191,
+    name: "Kentucky Mule",
+    description:
+      "The Kentucky Mule is a bourbon-based variation of the classic Moscow Mule. Swapping out vodka for bourbon, this cocktail brings the bold, rich flavors of whiskey into play, complementing the refreshing zing of lime juice and the spiciness of ginger beer. Typically served in a copper mug, it's a Southern twist on a beloved drink.",
+    steps: [
+      "Add the bourbon and lime juice to a copper mule mug.",
+      "Fill the mug with ice and top with ginger beer.",
+      "Garnish with a mint sprig.",
+    ],
+    ingredients: [
+      {
+        id: 35,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 5,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 47,
+        quantity: "1 sprig",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
 //
 // CATEGORIES
 //*Blazer cocktails
-//Buck
+//*Buck/mules
 //Cobbler
 //Colada
 //*Collins
@@ -7267,7 +7464,6 @@ export const defaultCocktails = [
 //old fashioned,
 //*tiki,
 //negronis,
-//mules,
 //margaritas,
 //russians,
 //kirs,

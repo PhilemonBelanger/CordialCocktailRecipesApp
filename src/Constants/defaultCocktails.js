@@ -7417,6 +7417,135 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 192,
+    name: "Sherry Cobbler",
+    description:
+      "The Sherry Cobbler is a historic American cocktail that dates back to the mid-19th century, known for its refreshing and vibrant flavor. Made with sherry and simple syrup, it became popular due to its light yet complex taste. The muddling of orange adds a zesty brightness, and the use of crushed ice makes it a staple of warm weather drinking, often enjoyed as a summer cooler.",
+    steps: [
+      "Add the sherry, simple syrup, and an orange half-wheel to a cocktail shaker.",
+      "Fill the shaker with ice and shake brutally to muddle the orange.",
+      "Strain into a highball glass filled with fresh crushed ice.",
+      "Garnish with an additional orange wheel.",
+    ],
+    ingredients: [
+      {
+        id: 144,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "2 wheels",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 193,
+    name: "Whiskey Cobbler",
+    description:
+      "The Whiskey Cobbler is a 19th-century cocktail, part of the 'cobbler' family of drinks known for their use of fruit and crushed ice. Traditionally made with whiskey, this cocktail is shaken vigorously to incorporate the flavors of muddled orange, which adds a zesty and slightly sweet note to the drink. It is a refreshing and flavorful option, often garnished with additional fruit for an eye-catching presentation.",
+    steps: [
+      "Add the whiskey of your choice, simple syrup, and orange half-wheel to a cocktail shaker and fill with ice.",
+      "Shake vigorously to muddle the orange.",
+      "Strain into a highball glass filled with fresh crushed ice.",
+      "Garnish with an additional orange wheel.",
+    ],
+    ingredients: [
+      {
+        id: 25,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 9,
+        quantity: "2 wheels",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 194,
+    name: "Champagne Cobbler",
+    description:
+      "The Champagne Cobbler is a sparkling cocktail that dates back to the 19th century, offering a refreshing and elegant mix of fruit juices and Champagne. The combination of orange juice, pineapple juice, and maraschino liqueur brings a balanced sweetness, while the Champagne adds a celebratory touch. Traditionally served with crushed ice, this cobbler is a perfect choice for festive occasions.",
+    steps: [
+      "Add the orange juice, pineapple juice, and maraschino liqueur to a mixing glass with ice and stir to combine.",
+      "Add the sparkling wine (traditionnally Champagne) and stir again.",
+      "Strain into a highball glass with fresh crushed ice.",
+      "Garnish with a lemon wheel.",
+    ],
+    ingredients: [
+      {
+        id: 8,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 22,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 61,
+        quantity: "4 oz",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 195,
+    name: "Claret Cobbler",
+    description:
+      "The Claret Cobbler is a 19th-century cocktail that gained popularity during the height of the cobbler-style drinks. Traditionally made with red wine, this version adds depth with cognac and Grand Marnier, creating a complex yet refreshing drink served over crushed ice. It is one of the early examples of American bartending history, showcasing a balance of fruitiness and warmth.",
+    steps: [
+      "Shake the cognac, Grand Marnier, and red wine with ice.",
+      "Fine strain into a glass filled with freshed crushed ice.",
+      "Serve with a straw.",
+    ],
+    ingredients: [
+      {
+        id: 41,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 128,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 38,
+        quantity: "2 1/2 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -7424,7 +7553,7 @@ export const defaultCocktails = [
 // CATEGORIES
 //*Blazer cocktails
 //*Buck/mules
-//Cobbler
+//*Cobbler
 //Colada
 //*Collins
 //Cooler

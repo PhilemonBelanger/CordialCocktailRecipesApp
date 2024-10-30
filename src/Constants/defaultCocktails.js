@@ -7546,6 +7546,46 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 196,
+    name: "Pina Verde",
+    description:
+      "The Piña Verde is a tropical cocktail variation that uses Green Chartreuse in place of rum, adding an herbal twist to the classic Piña Colada profile. Its name highlights the substitution ('verde' means 'green' in Spanish) and signals the drink's vibrant, grassy color from the Chartreuse. Created by bartender Sam Ross in the early 2000s, the Piña Verde combines pineapple and coconut flavors with the herbaceous complexity of Chartreuse, offering a fresh take on a classic.",
+    steps: [
+      "Add the green Chartreuse, pineapple juice, cream of coconut, and lime juice to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Fine strain into a glass filled with crushed ice.",
+      "Garnish with a mint sprig.",
+    ],
+    ingredients: [
+      {
+        id: 52,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 67,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 75,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 47,
+        quantity: "1 sprig",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -7554,7 +7594,7 @@ export const defaultCocktails = [
 //*Blazer cocktails
 //*Buck/mules
 //*Cobbler
-//Colada
+//*Colada
 //*Collins
 //Cooler
 //Crusta

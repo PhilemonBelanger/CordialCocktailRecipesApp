@@ -7586,6 +7586,105 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 197,
+    name: "Bourbon Crusta",
+    description:
+      "The Bourbon Crusta is a twist on the Brandy Crusta, a classic cocktail that dates back to the mid-19th century, created by Joseph Santini in New Orleans. It is considered a precursor to the modern cocktail and is known for its distinctive sugar-rimmed glass and lemon twist garnish. The Bourbon Crusta blends bourbon with orange curaçao, maraschino liqueur, lemon juice, simple syrup, and bitters, offering a complex and elegant flavor profile.",
+    steps: [
+      "Rim a coupe glass with sugar and set aside.",
+      "Add the bourbon, orange curaçao, maraschino liqueur, lemon juice, simple syrup, and bitters into a shaker with ice and shake until well-chilled.",
+      "Strain into the prepared glass.",
+      "Garnish with a lemon twist.",
+    ],
+    ingredients: [
+      {
+        id: 35,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 64,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 22,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "2 dashes",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+      {
+        id: 58,
+        quantity: "To rim",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 198,
+    name: "Pimm’s Cup",
+    description:
+      "The Pimm’s Cup is a quintessential British cocktail, originating in the mid-19th century. Created by James Pimm, the drink features Pimm’s No. 1, a gin-based liqueur with herbal and citrus flavors. This refreshing cocktail is a popular choice during the summer months, especially at outdoor events like Wimbledon, thanks to its light, fruity, and slightly spiced profile.",
+    steps: [
+      "Add Pimm’s No. 1 and lemon juice into a highball glass over ice.",
+      "Top with ginger ale and stir briefly to combine.",
+      "Garnish with a mint sprig, and lemon and orange wheels.",
+    ],
+    ingredients: [
+      {
+        id: 146,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 117,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 47,
+        quantity: "1 sprig",
+        optional: true,
+      },
+      {
+        id: 13,
+        quantity: "2 wheels",
+        optional: true,
+      },
+      {
+        id: 9,
+        quantity: "2 wheels",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -7596,9 +7695,9 @@ export const defaultCocktails = [
 //*Cobbler
 //*Colada
 //*Collins
-//Cooler
-//Crusta
-//Cup
+//*Cooler
+//*Crusta
+//*Cup
 //Daisy
 //Egg Nog
 //Fix

@@ -957,4 +957,11 @@ export const defaultIngredients = [
       "Allspice Dram, also known as pimento dram, is a liqueur flavored with the dried berries of the allspice tree. Originally from Jamaica, this liqueur was traditionally used in tiki drinks and tropical cocktails.",
     editable: false,
   },
+  {
+    id: 146,
+    name: "Pimm's No. 1",
+    description:
+      "Pimm's No. 1 is a gin based aperitif from the United Kingdom with herbal and citrus flavors, used notably in the Pimm's Cup cocktail.",
+    editable: false,
+  },
 ];

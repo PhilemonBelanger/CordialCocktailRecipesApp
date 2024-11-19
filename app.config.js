@@ -20,6 +20,7 @@ module.exports = {
     [
       "expo-image-picker",
       {
+        cameraPermission: false,
         photosPermission: false,
         microphonePermission: false,
       },

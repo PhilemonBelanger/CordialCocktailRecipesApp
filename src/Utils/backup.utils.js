@@ -6,6 +6,7 @@ import { setCocktails } from "~/Reducers/cocktailsActions";
 import { setIngredients } from "~/Reducers/ingredientsActions";
 import { setProfiles } from "~/Reducers/profilesActions";
 import { DEFAULT_PROFILE_ID } from "~/Reducers/profilesReducer";
+import { stringifyError } from "./string.utils";
 
 const BACKUP_FILE_NAME = "cordial_backup.json";
 const BACKUP_FILE_INTERNAL_PATH = FileSystem.cacheDirectory + BACKUP_FILE_NAME;
@@ -42,7 +43,7 @@ export const createBackupFile = async (cocktails, ingredients, profiles) => {
     await FileSystem.writeAsStringAsync(BACKUP_FILE_INTERNAL_PATH, jsonString);
     await saveFile(BACKUP_FILE_INTERNAL_PATH);
   } catch (error) {
-    Alert.alert("Error while creating backup file", JSON.stringify(error));
+    Alert.alert("Error while creating backup file", stringifyError(error));
   }
 };
 
@@ -66,6 +67,6 @@ export const importBackupFile = async (dispatch) => {
     dispatch(setIngredients(json?.ingredients));
     dispatch(setProfiles(json?.profiles));
   } catch (error) {
-    Alert.alert("Error while importing backup file", JSON.stringify(error));
+    Alert.alert("Error while importing backup file", stringifyError(error));
   }
 };

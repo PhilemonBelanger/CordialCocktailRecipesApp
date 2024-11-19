@@ -20,9 +20,9 @@ export const setCocktails = (cocktails) => {
         id: cocktails[key].id,
         name: cocktails[key].name,
         description: cocktails[key].description,
-        steps: [...cocktails[key].steps],
-        ingredients: [...cocktails[key].ingredients],
-        tags: [...cocktails[key].tags],
+        steps: [...(cocktails[key]?.steps ?? [])],
+        ingredients: [...(cocktails[key]?.ingredients ?? [])],
+        tags: [...(cocktails[key]?.tags ?? [])],
         editable: cocktails[key].editable,
         uri: cocktails[key].uri,
       })

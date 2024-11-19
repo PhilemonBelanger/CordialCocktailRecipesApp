@@ -20,7 +20,8 @@ module.exports = {
     [
       "expo-image-picker",
       {
-        photosPermission: "The app accesses your photos to let you use them in the app.",
+        photosPermission: false,
+        microphonePermission: false,
       },
     ],
   ],

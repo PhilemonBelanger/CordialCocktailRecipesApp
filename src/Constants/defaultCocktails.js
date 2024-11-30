@@ -7685,6 +7685,95 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 199,
+    name: "Brandy Daisy",
+    description:
+      "The Brandy Daisy is a sophisticated yet lively cocktail that dates back to the late 19th century. Part of the 'Daisy' family of drinks, it showcases brandy as the base spirit. One variation of the daisy cocktail, made with tequilla near Tijuana, Mexico, eventually received the name Margarita which means daisy in spanish.",
+    steps: [
+      "Stir the brandy, Yellow Chartreuse, and lemon juice with ice.",
+      "Strain into a chilled coupe glass.",
+      "Top with a splash of soda water.",
+      "Garnish with a lemon twist.",
+    ],
+    ingredients: [
+      {
+        id: 112,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 99,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "Splash",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 twist",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 200,
+    name: "Eggnog",
+    description:
+      "Eggnog is a traditional holiday drink with origins tracing back to early medieval Britain, where it evolved from a warm ale punch to the creamy, spiced beverage known today. Popularized in America in the 18th century, it became a festive staple, often served with brandy or rum. Its rich texture comes from the combination of eggs, cream, and milk, making it a quintessential winter treat.",
+    steps: [
+      "Add all ingredients into a shaker with ice and shake vigorously.",
+      "Strain into an ice-filled glass.",
+      "Grate nutmeg over the cocktail as a garnish.",
+    ],
+    ingredients: [
+      {
+        id: 112,
+        quantity: "2 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 37,
+        quantity: "1",
+        optional: false,
+      },
+      {
+        id: 121,
+        quantity: "1",
+        optional: false,
+      },
+      {
+        id: 87,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 94,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 111,
+        quantity: "Pinch",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -7698,8 +7787,8 @@ export const defaultCocktails = [
 //*Cooler
 //*Crusta
 //*Cup
-//Daisy
-//Egg Nog
+//*Daisy
+//*Egg Nog
 //Fix
 //Fizz
 //Flip

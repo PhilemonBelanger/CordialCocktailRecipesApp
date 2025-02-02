@@ -7774,6 +7774,82 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 201,
+    name: "Gin Fix",
+    description:
+      "The Gin Fix is a classic cocktail from the mid-19th century, part of the 'Fix' family of drinks characterized by being served over crushed ice. Popularized during the golden age of American cocktails, this drink highlights the botanical complexity of London Dry Gin, balanced by tart lemon juice and sweetened with sugar syrup.",
+    steps: [
+      "Add the London Dry gin, lemon juice, and sugar syrup into a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into a glass filled with crushed ice.",
+      "Garnish with a lemon slice and serve with a straw.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 slice",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 202,
+    name: "Silver Fizz",
+    description:
+      "The Silver Fizz is a variation of the classic Gin Fizz originating from the early 1880s in New York, distinguished by the addition of egg white, which creates a smooth and creamy texture. This elegant cocktail originated in the late 19th century, becoming a popular choice for brunches and sophisticated gatherings. Its effervescent finish, thanks to the soda water, adds a delightful sparkle to the velvety base.",
+    steps: [
+      "Add the sugar and lemon juice into a shaker and stir until the sugar dissolves.",
+      "Add the gin and egg white, and vigorously dry-shake (without ice).",
+      "Add ice and shake again until well-chilled.",
+      "Strain into a chilled Collins glass.",
+      "Top with soda water.",
+    ],
+    ingredients: [
+      {
+        id: 58,
+        quantity: "1 tsp",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 37,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To top",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -7789,8 +7865,8 @@ export const defaultCocktails = [
 //*Cup
 //*Daisy
 //*Egg Nog
-//Fix
-//Fizz
+//*Fix
+//*Fizz
 //Flip
 //Frappé
 //Frozen

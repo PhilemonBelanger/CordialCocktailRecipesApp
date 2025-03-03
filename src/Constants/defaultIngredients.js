@@ -964,4 +964,11 @@ export const defaultIngredients = [
       "Pimm's No. 1 is a gin based aperitif from the United Kingdom with herbal and citrus flavors, used notably in the Pimm's Cup cocktail.",
     editable: false,
   },
+  {
+    id: 147,
+    name: "Anisette Liqueur",
+    description:
+      "Anisette is a clear, sweet liqueur flavored with anise seed. It is often used in cocktails to add a distinct licorice flavor.",
+    editable: false,
+  },
 ];

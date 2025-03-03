@@ -7850,6 +7850,162 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 203,
+    name: "Brandy Flip",
+    description:
+      "The Brandy Flip is a rich and velvety cocktail that dates back to at least the 17th century. Originally, 'flip' referred to a warm drink made with beer, sugar, and eggs, but by the 19th century, it evolved into a chilled, spirit-forward variation. This version, featuring brandy (often cognac), egg yolk, and egg white, results in a smooth texture, complemented by the warming aroma of grated nutmeg.",
+    steps: [
+      "Add the brandy, simple syrup, egg white, and egg yolk to a shaker.",
+      "Dry shake vigorously.",
+      "Add ice and shake again until well-chilled.",
+      "Strain into a chilled coupe glass.",
+      "Garnish with grated nutmeg.",
+    ],
+    ingredients: [
+      {
+        id: 112,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 37,
+        quantity: "1",
+        optional: false,
+      },
+      {
+        id: 121,
+        quantity: "1",
+        optional: false,
+      },
+      {
+        id: 111,
+        quantity: "Grated",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 204,
+    name: "Absinthe Frappé",
+    description:
+      "The Absinthe Frappé is a 19th-century New Orleans classic, originally crafted at the Old Absinthe House by bartender Cayetano Ferrer in the 1870s. This cocktail was designed as a cooler for warm Southern nights, offering a crisp, herbaceous flavor with a touch of sweetness. The combination of absinthe, anisette, and simple syrup provides a licorice-forward profile, while the crushed ice gives it a refreshing texture.",
+    steps: [
+      "Add absinthe, anisette liqueur, chilled water, and simple syrup to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into an old-fashioned glass filled with crushed ice.",
+      "Garnish with a mint sprig.",
+    ],
+    ingredients: [
+      {
+        id: 49,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 147,
+        quantity: "1/3 oz",
+        optional: false,
+      },
+      {
+        id: 77,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/6 oz",
+        optional: false,
+      },
+      {
+        id: 47,
+        quantity: "1 sprig",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 205,
+    name: "Frozen Daiquiri",
+    description:
+      "The Frozen Daiquiri is a blended variation of the classic Daiquiri, offering a smooth, icy texture that enhances its citrusy and slightly sweet profile. Originating from Cuba, the Daiquiri was traditionally shaken, but the frozen version became popular in the mid-20th century with the rise of blenders in cocktail culture. This frosty take retains the signature balance of white rum, lime, and sugar while delivering a refreshing, slushy consistency.",
+    steps: [
+      "Add the white rum, lime juice, simple syrup, and a cup of ice into a blender.",
+      "Pulse until smooth and well-mixed.",
+      "Serve in a margarita glass.",
+      "Garnish with a lime wheel.",
+    ],
+    ingredients: [
+      {
+        id: 42,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 6,
+        quantity: "1 wheel",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 206,
+    name: "Honey Rum Grog",
+    description:
+      "The Honey Rum Grog is a modern take on the historic grog, a drink originally consumed by sailors in the British Navy. Traditionally made with rum, water, citrus, and sugar, this version incorporates honey for a smoother sweetness. The addition of Angostura bitters enhances the depth of flavor, making it a warm and complex cocktail, perfect for sipping on cooler nights.",
+    steps: [
+      "Add all ingredients to a shaker with ice.",
+      "Shake until well-chilled.",
+      "Strain into an old-fashioned glass with ice.",
+      "*Note: While we simplify all dark and white rums under these two categories, navy strength rum is normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 1,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 51,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 77,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "2 dashes",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -7867,10 +8023,10 @@ export const defaultCocktails = [
 //*Egg Nog
 //*Fix
 //*Fizz
-//Flip
-//Frappé
-//Frozen
-//Grog
+//*Flip
+//*Frappé
+//*Frozen
+//*Grog
 //*Highball
 //Julep
 //*Martini

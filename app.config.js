@@ -1,7 +1,7 @@
 module.exports = {
   name: "Cordial",
   slug: "cordial-cocktail-recipes-app",
-  version: "1.1.4",
+  version: "1.2.0",
   orientation: "portrait",
   icon: "./assets/icon.png",
   userInterfaceStyle: "light",
@@ -31,7 +31,7 @@ module.exports = {
     bundleIdentifier: "com.philemonbelanger.cordialCocktailapp",
   },
   android: {
-    versionCode: 16,
+    versionCode: 17,
     adaptiveIcon: {
       foregroundImage: "./assets/adaptive-icon.png",
       backgroundColor: "#011327",

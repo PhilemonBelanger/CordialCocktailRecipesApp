@@ -978,4 +978,11 @@ export const defaultIngredients = [
       "Sugar cane syrup is a sweetener made from the juice of sugar cane, often used in cocktails to add a rich sweetness and depth of flavor.",
     editable: false,
   },
+  {
+    id: 149,
+    name: "Clove",
+    description:
+      "Cloves are aromatic flower buds from the clove tree, used in cooking and cocktails for their warm, spicy flavor. They are often used in mulled drinks and spiced cocktails.",
+    editable: false,
+  },
 ];

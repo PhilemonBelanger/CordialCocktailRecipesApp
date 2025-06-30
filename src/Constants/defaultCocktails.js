@@ -8109,48 +8109,386 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 210,
+    name: "Hugo Rickey",
+    description:
+      "The Hugo Rickey is a playful twist on the classic Rickey template, bringing together gin, lime juice, and soda water with the added flair of grenadine or pomegranate syrup. Though not as historically entrenched as its namesake, this modern adaptation evokes the refreshing appeal of the original 19th-century Rickey, named after Colonel Joe Rickey. Its vibrant color and subtle fruitiness make it an appealing highball variation.",
+    steps: [
+      "Fill a highball glass with ice.",
+      "Pour in the gin, lime juice, and grenadine.",
+      "Top with soda water.",
+      "Stir briefly to combine.",
+      "Garnish with a pineapple slice.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "1 1/2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 65,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To top",
+        optional: false,
+      },
+      {
+        id: 76,
+        quantity: "1 slice",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 211,
+    name: "Gin Sangaree (Sangre)",
+    description:
+      "The Sangaree predates sangria by nearly two centuries, emerging in the 18th century as a single-serving punch associated with the West Indies and even old English brothels. Originally made with wine or spirits, sugar, and nutmeg, it evolved into a versatile iced cocktail featured in early bartender guides. Forgotten during the rise of sangria, it was revived during the modern cocktail renaissance for its historic charm and bold flavor.",
+    steps: [
+      "Shake the gin and sugar syrup with ice.",
+      "Strain into a chilled flute glass.",
+      "Carefully pour the port wine into the glass so it sinks and partially mixes, leaving a red layer.",
+      "Dust with freshly grated nutmeg.",
+    ],
+    ingredients: [
+      {
+        id: 21,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 120,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 111,
+        quantity: "A Sprinkle",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 212,
+    name: "Sangaree (Sangria)",
+    description:
+      "The Sangaree is a precursor to the modern Sangria, with origins in the 18th century Caribbean and colonial America. This version draws inspiration from Spanish tradition, blending Rioja wine with citrus juices and brandy. The addition of orange curaçao and cinnamon syrup lends depth and spice, while soda water adds effervescence. The name 'Sangaree' is derived from the Spanish word 'sangre', meaning blood, referencing the drink's deep red hue.",
+    steps: [
+      "Stir the Spanish brandy, orange curaçao, red wine (normally Rioja), orange juice, lemon juice, sugar syrup, and cinnamon syrup with ice.",
+      "Strain into an ice-filled wine glass.",
+      "Top with soda water.",
+      "Garnish with slices of strawberry, orange, and lemon.",
+      "Note: this cocktail can easily be made in large batches for parties.",
+    ],
+    ingredients: [
+      {
+        id: 112,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 64,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 38,
+        quantity: "3 oz",
+        optional: false,
+      },
+      {
+        id: 8,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/3 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1 barspoon",
+        optional: false,
+      },
+      {
+        id: 68,
+        quantity: "1/2 barspoon",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To Top",
+        optional: false,
+      },
+      {
+        id: 106,
+        quantity: "Slices",
+        optional: true,
+      },
+      {
+        id: 9,
+        quantity: "Slices",
+        optional: true,
+      },
+      {
+        id: 13,
+        quantity: "Slices",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 213,
+    name: "Brandy Scaffa",
+    description:
+      "The Brandy Scaffa is a lesser-known, spirit-forward cocktail dating back to the 19th century, when 'scaffa' referred to mixed drinks made without ice or dilution. Typically served at room temperature and often layered, the drink combines maraschino liqueur, green Chartreuse, and brandy, delivering a bold, complex flavor profile that harkens to pre-Prohibition tastes.",
+    steps: [
+      "Add the maraschino liqueur, green Chartreuse, and brandy directly into a classic coupe glass.",
+      "Serve at room temperature.",
+      "Either layer the ingredients or stir gently to combine.",
+    ],
+    ingredients: [
+      {
+        id: 22,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 52,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+      {
+        id: 112,
+        quantity: "3/4 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 214,
+    name: "Gin Sling",
+    description:
+      "The Gin Sling is a historic cocktail whose name derives from the German word 'schlingen', meaning 'to swallow'. Popularized in the late 1800s, the sling is a category of drink typically consisting of spirit, water, sugar, and sometimes citrus. The Gin Sling showcases the simplicity of the style with a light, effervescent profile built around London Dry Gin.",
+    steps: [
+      "Pre-chill a Sling glass and prepare a lemon slice wheel for garnish.",
+      "Add the gin, lemon juice, and sugar syrup to a shaker with ice and shake until well-chilled.",
+      "Strain into an ice-filled Sling glass while simultaneously pouring soda water.",
+      "Garnish with a lemon slice.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 40,
+        quantity: "To Top",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 slice",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 215,
+    name: "Swizzles Cocktail",
+    description:
+      "The Swizzles Cocktail takes its name from the unique stirring technique using a 'swizzle stick,' traditionally a branch from the Caribbean swizzle tree. This method chills and dilutes the drink while creating a frosty outer layer on the glass. Originally from the West Indies, the drink blends gin, lime, and sugar syrup with aromatic bitters, delivering a balanced and cooling experience that's as much about the ritual as the flavor.",
+    steps: [
+      "Pour the gin, lime juice, sugar syrup, and bitters into a chilled Collins glass.",
+      "Fill two-thirds of the glass with crushed ice.",
+      "Swizzle with a swizzle stick or churn with a barspoon until the glass frosts.",
+      "Top with more crushed ice and swizzle again briefly.",
+      "Crown with a few dashes of Angostura bitters over the ice peak.",
+      "Garnish with a maraschino cherry.",
+      "Serve with straws.",
+    ],
+    ingredients: [
+      {
+        id: 10,
+        quantity: "2 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "2/3 oz",
+        optional: false,
+      },
+      {
+        id: 4,
+        quantity: "1 dash",
+        optional: false,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 216,
+    name: "Adios Motherfucker (AMF)",
+    description:
+      "The Adios Motherfucker, often abbreviated as AMF, is a potent, colorful cocktail known for its mix of multiple spirits and bright blue hue from blue curaçao. It’s a fun and boisterous drink, popular in party scenes for its strong kick and citrusy, sweet-tart balance. The name reflects the bold nature of this drink, which is a cousin to the Long Island Iced Tea but with a vibrant twist.",
+    steps: [
+      "Add the vodka, white rum, tequila, gin, blue curaçao, simple syrup, lime juice, and lemon juice to a highball glass filled with ice.",
+      "Stir gently to combine.",
+      "Top with Lemon-Lime Soda.",
+      "Garnish with a lemon wedge and a preserved cherry (optional).",
+      "Note: This recipe normally uses Sweet-and-sour mix, but we split it here in its ingredients to simplify.",
+    ],
+    ingredients: [
+      {
+        id: 29,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 42,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 14,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 10,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 140,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1 oz",
+        optional: false,
+      },
+      {
+        id: 2,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 133,
+        quantity: "To Top",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wedge",
+        optional: true,
+      },
+      {
+        id: 23,
+        quantity: "1",
+        optional: true,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 217,
+    name: "Hot Toddy",
+    description:
+      "The Hot Toddy is a traditional warm cocktail with origins in Scotland and Ireland, commonly consumed to soothe cold symptoms or simply as a comforting drink in colder months. Its blend of whiskey, citrus, spices, and hot water creates a cozy, aromatic beverage that has stood the test of time.",
+    steps: [
+      "Fill a mug with boiling water and let stand for a minute or two to warm.",
+      "Stick the cloves into the lemon wheel and set aside.",
+      "Empty the mug and fill about halfway with fresh boiling water.",
+      "Add the sugar and stir to dissolve.",
+      "Add the prepared lemon peel or wheel and stir.",
+      "Add the lemon juice and whiskey (rye, bourbon, scotch or irish whiskey can be used), and stir again.",
+    ],
+    ingredients: [
+      {
+        id: 77,
+        quantity: "Boiling, To Fill",
+        optional: false,
+      },
+      {
+        id: 149,
+        quantity: "4",
+        optional: false,
+      },
+      {
+        id: 13,
+        quantity: "1 wheel",
+        optional: false,
+      },
+      {
+        id: 58,
+        quantity: "2 tsp",
+        optional: false,
+      },
+      {
+        id: 16,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 35,
+        quantity: "2 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
-//
-// CATEGORIES
-//*Blazer cocktails
-//*Buck/mules
-//*Cobbler
-//*Colada
-//*Collins
-//*Cooler
-//*Crusta
-//*Cup
-//*Daisy
-//*Egg Nog
-//*Fix
-//*Fizz
-//*Flip
-//*Frappé
-//*Frozen
-//*Grog
-//*Highball
-//*Julep
-//*Martini
-//*Neo Martini
-//*Mull
-//*Nogs
-//*Posset
-//*Pousse café
-//*Punch
-//Rickey
-//Sangaree
-//Scaffa
-//Screw
-//Shrub
-//Sling
-//Smash
-//Sour
-//Swizzle
-//Tea
-//Toddy
-//
 //
 // ALTERNATES
 //old fashioned,

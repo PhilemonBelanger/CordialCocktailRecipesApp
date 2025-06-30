@@ -1,6 +1,8 @@
 {
   "cli": {
-    "version": ">= 10.2.1"
+    "version": ">= 16.13.2",
+    "requireCommit": true,
+    "appVersionSource": "local"
   },
   "build": {
     "developmentSimulator": {

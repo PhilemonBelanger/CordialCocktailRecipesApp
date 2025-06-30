@@ -971,4 +971,11 @@ export const defaultIngredients = [
       "Anisette is a clear, sweet liqueur flavored with anise seed. It is often used in cocktails to add a distinct licorice flavor.",
     editable: false,
   },
+  {
+    id: 148,
+    name: "Sugar Cane Syrup",
+    description:
+      "Sugar cane syrup is a sweetener made from the juice of sugar cane, often used in cocktails to add a rich sweetness and depth of flavor.",
+    editable: false,
+  },
 ];

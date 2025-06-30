@@ -8006,6 +8006,109 @@ export const defaultCocktails = [
     ],
     editable: false,
   },
+  {
+    id: 207,
+    name: "Cognac Julep",
+    description:
+      "The Cognac Julep is a refined twist on the traditional Mint Julep, substituting bourbon for the elegant French spirit, cognac. Popular in the 19th century among the upper class, especially in the American South and France, this variation reflects a time when cognac was more prevalent in the U.S. than whiskey. Served over crushed ice and infused with mint, it’s a luxurious nod to a bygone era of cocktail culture.",
+    steps: [
+      "In a Julep cup or rocks glass, lightly muddle the leaves of one sprig of mint in the simple syrup.",
+      "Add the cognac then pack the glass tightly with crushed ice.",
+      "Stir until the cup is frosted on the outside.",
+      "Top with more crushed ice to form an ice dome, and garnish with the second mint sprig.",
+    ],
+    ingredients: [
+      {
+        id: 47,
+        quantity: "2 sprigs",
+        optional: false,
+      },
+      {
+        id: 36,
+        quantity: "1/4 oz",
+        optional: false,
+      },
+      {
+        id: 41,
+        quantity: "2 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 208,
+    name: "Pousse-café",
+    description:
+      "The Pousse-café is a visually striking layered drink that dates back to 19th-century France. Its name translates to 'coffee chaser,' and comes from the practice of traditionally drinking small amounts of an alcoholic beverage after coffee to end a meal. This drink is made by carefully layering liqueurs of varying densities to create a rainbow-like effect in the glass.",
+    steps: [
+      "Refrigerate all ingredients prior to preparation.",
+      "Carefully layer each ingredient in the order listed into a chilled shot glass, pouring slowly over the back of a spoon to maintain separation.",
+    ],
+    ingredients: [
+      {
+        id: 65,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 89,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 118,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 15,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 35,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+      {
+        id: 116,
+        quantity: "1/2 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
+  {
+    id: 209,
+    name: "Ti Punch",
+    description:
+      "Ti Punch, short for 'petit punch', is a traditional drink from the French Caribbean, particularly Martinique and Guadeloupe. It's a minimalist yet deeply flavorful cocktail showcasing rum agricole, a spirit made from fresh sugarcane juice. Unlike many other cocktails, Ti Punch is often served without ice, and its preparation is seen as a ritual. Each drinker typically adjusts the balance of lime and sugar to their taste, reflecting the local saying: 'Chacun prépare sa propre mort'—everyone prepares their own death.",
+    steps: [
+      "Squeeze a lime wedge into a chilled rocks glass and drop the wheel in.",
+      "Add the sugar cane syrup and stir with the juice.",
+      "Add the rum agricole and optional ice, if desired.",
+      "*Note: While we simplify all dark and white rums under these two categories, rum agricole is normally used for this recipe.",
+    ],
+    ingredients: [
+      {
+        id: 6,
+        quantity: "1 wedge",
+        optional: false,
+      },
+      {
+        id: 148,
+        quantity: "1 barspoon",
+        optional: false,
+      },
+      {
+        id: 42,
+        quantity: "2 oz",
+        optional: false,
+      },
+    ],
+    editable: false,
+  },
 ];
 
 //TODO
@@ -8028,14 +8131,14 @@ export const defaultCocktails = [
 //*Frozen
 //*Grog
 //*Highball
-//Julep
+//*Julep
 //*Martini
 //*Neo Martini
-//Mull
-//Nogs
-//Posset
-//Pousse café
-//Punch
+//*Mull
+//*Nogs
+//*Posset
+//*Pousse café
+//*Punch
 //Rickey
 //Sangaree
 //Scaffa

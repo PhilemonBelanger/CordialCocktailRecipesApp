@@ -25,6 +25,7 @@ module.exports = {
         microphonePermission: false,
       },
     ],
+    "expo-web-browser",
   ],
   ios: {
     supportsTablet: true,

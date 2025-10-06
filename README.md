@@ -17,3 +17,5 @@ The app is based on the expo framework and react native, as a hobby project. I c
 ## Link
 
 The app is available in the [google play store](https://play.google.com/store/apps/details?id=com.philemonbelanger.cordialCocktailapp&pcampaignid=web_share) !
+
+Like what I do? Please support me by buying me a coffee [here](https://ko-fi.com/philemonbelanger) !

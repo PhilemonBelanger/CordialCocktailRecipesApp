@@ -1,6 +1,7 @@
 import { Button } from "react-native-paper";
 import { View, StyleSheet, Text, ScrollView } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
+import * as WebBrowser from "expo-web-browser";
 import { createBackupFile, importBackupFile } from "~/Utils/backup.utils";
 import {
   allCocktailsSelector,
@@ -27,6 +28,11 @@ export default function Settings({ navigation }) {
     await importBackupFile(dispatch);
   };
 
+  const handleSupportMePress = async () => {
+    const url = `https://ko-fi.com/philemonbelanger`;
+    await WebBrowser.openBrowserAsync(url);
+  };
+
   const [isCreateBackupVisible, hideCreateBackupModal, showCreateBackupModal] = useModalToggler();
   const [isImportBackupVisible, hideImportBackupModal, showImportBackupModal] = useModalToggler();
 
@@ -41,6 +47,9 @@ export default function Settings({ navigation }) {
       </Button>
       <Button icon="mail" mode="outlined" onPress={contactSupport} style={styles.buttonStyle}>
         Contact support
+      </Button>
+      <Button icon="heart" mode="outlined" onPress={handleSupportMePress} style={styles.buttonStyle}>
+        Buy me a coffee
       </Button>
       <ConfirmationDialog
         isVisible={isCreateBackupVisible}
